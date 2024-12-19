@@ -60,7 +60,7 @@ alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
 #hardware info --short
 alias hw="hwinfo --short"
-alias hyc= "hyprctl clients | grep 'initialClass'"
+alias hyc="hyprctl clients | grep 'initialClass'"
 
 
 #check vulnerabilities microcode
@@ -122,4 +122,7 @@ alias sr="sudo reboot"
 
 #give the list of all installed desktops - xsessions desktops
 alias xd="ls /usr/share/xsessions"
+alias nvchad="NVIM_APPNAME=nvchad nvim"
+alias lazyvim="NVIM_APPNAME=lazyvim nvim"
+alias astronvim="NVIM_APPNAME=astronvim nvim"
 

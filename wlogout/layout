@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "hyprlock -q --immediate",
+    "action" : "$HOME/.config/hypr/scripts/LockScreen.sh",
     "text" : "Lock",
     "keybind" : "l"
 }
