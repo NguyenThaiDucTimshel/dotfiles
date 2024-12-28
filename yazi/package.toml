@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "dedukun/relative-motions", rev = "df97039" }, { use = "hankertrix/augment-command", rev = "ddd9452" }, { use = "h-hg/yamb", rev = "108347b" }]
+
+[flavor]
+deps = []
