@@ -1,0 +1,7 @@
+2025-01-23 03:55:49.875 [info] update#setState disabled
+2025-01-23 03:55:49.875 [info] update#ctor - updates are disabled as there is no update URL
+2025-01-23 03:55:49.880 [error] SyntaxError: Expected property name or '}' in JSON at position 16 (line 12 column 1)
+    at JSON.parse (<anonymous>)
+    at wm (file:///usr/lib/code/out/main.js:6:150)
+    at yu.X (file:///usr/lib/code/out/main.js:80:29855)
+2025-01-23 03:55:53.421 [info] Extension host with pid 3101 exited with code: 0, signal: unknown.

@@ -1,0 +1,8 @@
+2025-01-21 21:15:01.890 [info] update#setState disabled
+2025-01-21 21:15:01.890 [info] update#ctor - updates are disabled as there is no update URL
+2025-01-21 21:15:01.899 [error] SyntaxError: Expected property name or '}' in JSON at position 16 (line 12 column 1)
+    at JSON.parse (<anonymous>)
+    at wm (file:///usr/lib/code/out/main.js:6:150)
+    at yu.X (file:///usr/lib/code/out/main.js:80:29855)
+2025-01-21 21:15:15.667 [info] Extension host with pid 7004 exited with code: 0, signal: unknown.
+2025-01-21 21:15:15.696 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 6984]: crashed with code 15 and reason 'killed'

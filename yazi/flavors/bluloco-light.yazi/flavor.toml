@@ -1,0 +1,113 @@
+# Schema
+"$schema" = "https://yazi-rs.github.io/schemas/theme.json"
+
+# Bluloco light flavour for Yazi
+[manager]
+
+cwd = { fg = "#0099E1" }
+
+marker_copied = { fg = "#C5A231", bg = "#C5A231" }
+marker_cut = { fg = "#D52753", bg = "#D52753" }
+marker_marked = { fg = "#823FF1", bg = "#823FF1" }
+marker_selected = { fg = "#0098DD", bg = "#0098DD" }
+
+count_copied = { fg = "#F9F9F9", bg = "#C5A231" }
+count_cut = { fg = "#F9F9F9", bg = "#D52753" }
+count_selected = { fg = "#F9F9F9", bg = "#0098DD" }
+
+tab_active = { fg = "#0099E1", bg = "#E0E0E0" }
+tab_inactive = { fg = "#B0B0B0", bg = "#F2F2F2" }
+
+[manager.find_keyword]
+fg = "#EA3971"
+bg = "#B1EACF"
+bold = true
+italic = true
+underline = true
+
+[manager.find_position]
+fg = "#383A42"
+bg = "reset"
+bold = true
+italic = true
+
+
+# Colours for the modes in Yazi.
+#
+# The main styles are the styles for
+# the selection bar and sections at
+# the ends of the status bar.
+#
+# The alternate styles (alt) are the
+# styles for the separators, which are
+# the section in the status bar
+# that are right beside the sections
+# at the ends of the status bar.
+[mode]
+normal_main = { fg = "#F9F9F9", bg = "#0098DD" }
+normal_alt = { fg = "#6D7281", bg = "#DEE1E3" }
+
+select_main = { fg = "#F9F9F9", bg = "#823FF1" }
+select_alt = { fg = "#823FF1", bg = "#DEE1E3" }
+
+unset_main = { fg = "#F9F9F9", bg = "#D52753" }
+unset_alt = { fg = "#D52753", bg = "#DEE1E3" }
+
+
+[status]
+progress_label = { fg = "#F9F9F9", bold = true }
+progress_normal = { fg = "#823FF1", bg = "#A0A1A7" }
+progress_error = { fg = "#FF0000", bg = "#FCE4E4" }
+
+
+[pick]
+border = { fg = "#7A82DA" }
+active = { fg = "#C5A332", bold = true }
+
+[input]
+border = { fg = "#7A82DA" }
+title = { fg = "#7A82DA" }
+
+
+[confirm]
+border = { fg = "#7A82DA" }
+title = { fg = "#7A82DA" }
+btn_yes = { fg = "#23974A" }
+btn_no = { fg = "#D52753" }
+btn_labels = ["Yes", "No"]
+
+
+[spot]
+border = { fg = "#7A82DA" }
+title = { fg = "#7A82DA" }
+
+
+[completion]
+border = { fg = "#7A82DA" }
+active = { bg = "#D1ECFF" }
+
+
+[tasks]
+border = { fg = "#7A82DA" }
+title = { fg = "#7A82DA" }
+hovered = { bg = "#D1ECFF", bold = true }
+
+
+[which]
+cand = { fg = "#DE631B" }
+mask = { bg = "#ECEDEE" }
+desc = { fg = "#0098DD" }
+separator_style = { fg = "#7A82DA" }
+
+
+[help]
+on = { fg = "#DF631C" }
+run = { fg = "#0098DD" }
+desc = { fg = "#383A42" }
+footer = { bg = "#F9F9F9", fg = "#383A42" }
+
+
+[notify]
+title_info = { fg = "#0099E1" }
+title_warn = { fg = "#FF8F3A" }
+title_error = { fg = "#FF0000" }

@@ -1,0 +1,167 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "general": {
+    "multithreading": true
+  },
+  "logo": {
+        "source": "$(find \"/home/timshel/.config/fastfetch/\" -name \"*.png\" | sort -R | head -1)",
+        "padding": {"top": 8},
+        //"type": "sixel",
+        "height": 14
+    },
+  "display": {
+    "separator": "        ",
+  "color":   {
+     "output": "white"
+     }
+  },
+  "modules": [
+
+    {
+            "type": "title",
+           "color":{
+            "user": "red",
+              "at": "green",
+            "host": "blue"
+                   },
+            "format": "┌──────────────────────────────────────  {6} 󰣘 {7} 󰣙 {8} 󰌏 ────────────────────────────────┐"
+
+        },
+    "break",
+    {
+            "type": "custom",
+            "format": "       The oldest and strongest fear of mankind is the fear of the unknown -  H.P. Lovecraft  ",
+        },
+    "separator",
+    {       "type": "custom",
+            "format": "╭─  󰦥 󰦥 󰦥 󰦥  SysBase 󰦥 󰦥 󰦥 ",
+        },
+
+    {
+            "type": "kernel",
+            "key": "├ 01.               Kernel   ",
+            "keyColor": "red"
+        },
+    {
+            "type": "packages",
+            "key": "├ 02.             Packages   ",
+            "keyColor": "red"
+        },
+    {
+            "type": "locale",
+            "key": "├ 03.               Locale   ",
+            "keyColor": "red"
+        },
+    {
+            "type": "uptime",
+            "key": "├ 04.               Uptime   󰐥",
+            "keyColor": "red"
+        },
+    {
+            "type": "shell",
+            "key": "├ 05.                Shell   ",
+            "keyColor": "red"
+        },
+    {
+            "type": "terminal",
+            "key": "├ 06.             Terminal   ",
+            "keyColor": "red"
+        },
+    {
+            "type": "terminalfont",
+            "key": "└ 07.        Terminal Font  ",
+            "keyColor": "red"
+        },
+
+    {       "type": "custom",
+            "format": "╭─  󰦥 󰦥 󰦥 󰦥  Theming 󰦥 󰦥 󰦥 ",
+        },
+
+    {
+            "type": "de",
+            "key": "├ 08.   Desktop Enviroment   ",
+            "keyColor": "green"
+        },
+    {
+            "type": "font",
+            "key": "├ 09.      Systemwide Font   ",
+            "keyColor": "green"
+        },
+    {
+            "type": "theme",
+            "key": "├ 10.                Theme   ",
+            "keyColor": "green"
+        },
+    {
+            "type": "icons",
+            "key": "├ 11.                Icons   ",
+            "keyColor": "green"
+        },
+    {
+            "type": "cursor",
+            "key": "├ 12.               Cursor   󰳽",
+            "keyColor": "green"
+        },
+    {
+            "type": "lm",
+            "key": "├ 13.      Display Manager   ",
+            "keyColor": "green"
+        },
+    {
+            "type": "wm",
+            "key": "├ 14.       Window Manager   ",
+            "keyColor": "green"
+        },
+    {
+            "type": "wmtheme",
+            "key": "└ 15.             WM Theme  ",
+            "keyColor": "green"
+        },
+
+    {       "type": "custom",
+            "format": "╭─  󰦥 󰦥 󰦥 󰦥  Specs 󰦥 󰦥 󰦥 󰦥 ",
+        },
+
+    {
+            "type": "cpu",
+            "key": "├ 16.                  CPU   ",
+            "format": "{4} x {1}",
+            "keyColor": "blue"
+        },
+    {
+            "type": "memory",
+            "key": "├ 17.               Memory   ",
+            "keyColor": "blue"
+        },
+    {
+            "type": "swap",
+            "key": "├ 18.                 Swap   ",
+            "keyColor": "blue"
+        },
+    {
+            "type": "wifi",
+            "key": "├ 19.                Wi-Fi   ",
+            "keyColor": "magenta"
+        },
+    {
+            "type": "localip",
+            "key": "└ 20.             Local IP  󰩟",
+            "keyColor": "magenta"
+        },
+    
+    "break",
+
+    {
+            "type": "custom",
+            "format": "└───────────────────────────────── I HATE MYSELF ─────────────────────────────────────────────────┘"
+        },
+    {
+      "type": "colors",
+      "paddingLeft": 34,
+      "symbol": "square",
+      "block": {
+      "width": 10
+      }
+    }
+  ]
+}

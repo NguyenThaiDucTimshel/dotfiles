@@ -1,0 +1,19 @@
+# Schema
+"$schema" = "https://yazi-rs.github.io/schemas/theme.json"
+
+# Use the theme that I want
+[flavor]
+light = "bluloco-light"
+dark = "bluloco-dark"
+
+# The theme for the file manager
+[manager]
+
+# Remove the borders
+border_symbol = " "
+
+# Set the icons for the notifications
+[notify]
+icon_info = ""
+icon_warn = ""
+icon_error = ""
