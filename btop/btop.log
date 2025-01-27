@@ -124,3 +124,349 @@
 2025/01/21 (20:51:33) | WARNING: ROCm SMI: Failed to get VRAM utilization
 2025/01/21 (20:51:33) | WARNING: ROCm SMI: Failed to get GPU power usage
 2025/01/21 (20:51:33) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/23 (22:17:42) | ===> btop++ v.1.4.0
+2025/01/23 (22:17:42) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/23 (22:17:42) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/23 (22:17:42) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/23 (22:17:42) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/23 (22:17:42) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/23 (23:36:48) | ===> btop++ v.1.4.0
+2025/01/23 (23:36:48) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/23 (23:36:48) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/23 (23:36:48) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/23 (23:36:48) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/23 (23:36:48) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/24 (00:06:54) | ===> btop++ v.1.4.0
+2025/01/24 (00:06:54) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/24 (00:06:54) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (00:06:54) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/24 (00:06:54) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/24 (00:06:54) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/24 (00:08:30) | ===> btop++ v.1.4.0
+2025/01/24 (00:08:30) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/24 (00:08:30) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (00:08:30) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/24 (00:08:30) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/24 (00:08:30) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/24 (00:22:36) | ===> btop++ v.1.4.0
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:36) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/24 (00:22:36) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (00:22:36) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/24 (00:22:36) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/24 (00:22:36) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:37) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:38) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:39) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:40) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:44) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:45) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:46) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:47) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:48) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:49) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:50) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:51) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:52) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:53) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:54) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:55) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:55) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:55) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:55) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:56) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:57) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:58) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:22:59) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:00) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:01) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:02) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:03) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:04) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:05) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:06) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:07) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:08) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:09) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:10) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:11) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:12) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:13) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:14) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:15) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:16) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:17) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:18) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:19) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:20) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:21) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:22) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:23) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:24) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:25) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:26) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:27) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:28) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:29) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:30) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:31) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:32) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:33) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:34) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:35) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:37) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:38) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:39) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:40) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:44) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:45) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:46) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:47) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:48) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:49) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:50) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:51) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:52) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:53) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:54) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:55) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:56) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:57) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:58) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:23:59) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:00) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:01) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:02) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:03) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:04) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:05) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:06) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:07) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:08) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:09) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:10) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:11) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:12) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:13) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:14) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:15) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:16) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:17) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:18) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:19) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:20) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:21) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:22) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:23) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:24) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:25) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:26) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:27) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:28) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:29) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:30) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:31) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:32) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:33) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:34) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:35) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:37) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:38) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:39) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:40) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:43) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:44) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:45) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:46) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:47) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:48) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:49) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:50) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:51) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:52) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:53) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:54) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:55) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:56) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:57) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:58) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:24:59) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:00) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:01) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:02) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:03) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:04) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:05) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:06) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:07) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:08) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:09) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:10) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:11) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:12) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:13) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:14) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:15) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:16) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:17) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:18) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:19) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:20) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:21) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:22) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:23) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:24) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:25) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:26) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:27) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:28) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:29) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:30) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:31) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:32) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:33) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:34) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:35) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:36) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:37) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:38) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:39) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:40) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:41) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:42) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:44) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:44) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (00:25:45) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+
+2025/01/24 (00:26:16) | ===> btop++ v.1.4.0
+2025/01/24 (00:26:16) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/24 (00:26:16) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (00:26:16) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/24 (00:26:16) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/24 (00:26:16) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/24 (00:26:28) | ===> btop++ v.1.4.0
+2025/01/24 (00:26:28) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/24 (00:26:28) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (00:26:28) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/24 (00:26:28) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/24 (00:26:28) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/24 (00:30:39) | ===> btop++ v.1.4.0
+2025/01/24 (00:30:39) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/24 (00:30:39) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (00:30:39) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/24 (00:30:39) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/24 (00:30:39) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/24 (07:22:58) | ===> btop++ v.1.4.0
+2025/01/24 (07:22:58) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (07:22:58) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (07:22:58) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/24 (07:22:58) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (07:22:58) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/24 (07:22:58) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/24 (07:22:58) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/24 (07:22:58) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (07:22:58) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (07:22:58) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (07:22:58) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (07:22:58) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (07:22:59) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (07:23:00) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2025/01/24 (07:23:01) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+
+2025/01/24 (07:23:59) | ===> btop++ v.1.4.0
+2025/01/24 (07:23:59) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/24 (07:23:59) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (07:23:59) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/24 (07:23:59) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/24 (07:23:59) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/24 (07:24:03) | ===> btop++ v.1.4.0
+2025/01/24 (07:24:03) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/24 (07:24:03) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (07:24:03) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/24 (07:24:03) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/24 (07:24:03) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/25 (11:35:34) | ===> btop++ v.1.4.0
+2025/01/25 (11:35:34) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/25 (11:35:34) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/25 (11:35:34) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/25 (11:35:34) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/25 (11:35:34) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/25 (11:41:03) | ===> btop++ v.1.4.0
+2025/01/25 (11:41:03) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/25 (11:41:03) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/25 (11:41:03) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/25 (11:41:03) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/25 (11:41:03) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/25 (12:01:15) | ===> btop++ v.1.4.0
+2025/01/25 (12:01:15) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/25 (12:01:15) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/25 (12:01:15) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/25 (12:01:15) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/25 (12:01:15) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/25 (13:04:47) | ===> btop++ v.1.4.0
+2025/01/25 (13:04:47) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/25 (13:04:47) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/25 (13:04:47) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/25 (13:04:47) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/25 (13:04:47) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/25 (22:33:31) | ===> btop++ v.1.4.0
+2025/01/25 (22:33:31) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/25 (22:33:31) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/25 (22:33:31) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/25 (22:33:31) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/25 (22:33:31) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/26 (16:24:45) | ===> btop++ v.1.4.0
+2025/01/26 (16:24:45) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/26 (16:24:45) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/26 (16:24:45) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/26 (16:24:45) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/26 (16:24:45) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/26 (16:36:18) | ===> btop++ v.1.4.0
+2025/01/26 (16:36:18) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/26 (16:36:18) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/26 (16:36:18) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/26 (16:36:18) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/26 (16:36:18) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2025/01/26 (22:10:00) | ===> btop++ v.1.4.0
+2025/01/26 (22:10:00) | WARNING: ROCm SMI: Failed to get maximum GPU power draw, defaulting to 225W
+2025/01/26 (22:10:00) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/26 (22:10:00) | WARNING: ROCm SMI: Failed to get VRAM utilization
+2025/01/26 (22:10:00) | WARNING: ROCm SMI: Failed to get GPU power usage
+2025/01/26 (22:10:00) | WARNING: ROCm SMI: Failed to get PCIe throughput

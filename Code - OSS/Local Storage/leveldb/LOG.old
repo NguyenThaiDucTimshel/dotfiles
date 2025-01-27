@@ -1,3 +1,3 @@
-2025/01/23-02:56:25.083 3543 Reusing MANIFEST /home/timshel/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
-2025/01/23-02:56:25.100 3543 Recovering log #3
-2025/01/23-02:56:25.100 3543 Reusing old log /home/timshel/.config/Code - OSS/Local Storage/leveldb/000003.log 
+2025/01/23-03:55:49.771 b76 Reusing MANIFEST /home/timshel/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2025/01/23-03:55:49.775 b76 Recovering log #3
+2025/01/23-03:55:49.775 b76 Reusing old log /home/timshel/.config/Code - OSS/Local Storage/leveldb/000003.log 

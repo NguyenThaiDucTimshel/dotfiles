@@ -111,4 +111,4 @@ zoxide init fish | source
 set  ENCORE_INSTALL /home/ntdtimshel/.encore
 contains $ENCORE_INSTALL/bin $PATH
 or set PATH $ENCORE_INSTALL/bin $PATH
-
+#starship init fish | source
