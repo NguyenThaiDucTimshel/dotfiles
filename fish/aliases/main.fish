@@ -68,7 +68,7 @@ alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
 
 #get fastest mirrors in your neighborhood
 alias mirror="sudo reflector  -c VN,SG,HK -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
-alias mirrord="sudo reflector -c VN,SG,HK --latest 30 --number 10 --sort delay --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo cachyos-rate-mirrors"
 alias mirrors="sudo reflector -c VN,SG,HK --latest 30 --number 10 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector -c VN,SG,HK --latest 30 --number 10 --sort age --save /etc/pacman.d/mirrorlist"
 

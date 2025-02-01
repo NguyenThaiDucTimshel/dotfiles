@@ -159,8 +159,8 @@
 		"title<.*reddit.*>": " ",
 		"title<.*Picture-in-Picture.*>": " ",
 		"class<firefox|org.mozilla.firefox|librewolf|floorp|mercury-browser|[Cc]achy-browser>": " ",
-		"class<kitty|konsole>": " ",
-		"class<kitty-dropterm>": " ",
+		"class<kitty|com.mitchellh.ghostty|konsole>": " ",
+		"class<kitty-dropterm|foot>": " ",
 		"class<Chromium|Thorium>": " ",
 		"class<org.telegram.desktop|io.github.tdesktop_x64.TDesktop>": " ",
 		"class<[Ss]potify>": " ",
@@ -182,7 +182,7 @@
 		"class<com.obsproject.Studio>": " ",
 		"class<polkit-gnome-authentication-agent-1>": "󰒃 ",
 		"class<nwg-look>": " ",
-		"class<zen-alpha>": "󰰷 ", //Zen Browser
+		"class<zen>": "󰰷 ", //Zen Browser
 		"class<waterfox|waterfox-bin>": " ",
 		"class<microsoft-edge>": " ",
 		"class<vlc>": "󰕼 "

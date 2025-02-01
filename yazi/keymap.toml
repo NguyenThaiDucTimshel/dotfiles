@@ -100,13 +100,6 @@ run  = "plugin augment-command --args='tab_create --current'"
 desc = "Create a new tab with CWD"
 
 
-# Use the augmented open to open files interactively with O
-[[manager.prepend_keymap]]
-on   = [ "O" ]
-run  = "plugin augment-command --args='open --interactive'"
-desc = "Open selected files interactively"
-
-
 # Use d to cut files
 [[manager.prepend_keymap]]
 on   = [ "d" ]
@@ -165,13 +158,6 @@ run  = 'shell "$SHELL" --block --confirm'
 desc = "Open shell here"
 
 
-# Use o to open files using the editor
-[[manager.prepend_keymap]]
-on   = [ "o" ]
-run  = "plugin augment-command --args='editor'"
-desc = "Open files with the default editor"
-
-
 # Use i to open files using the pager
 [[manager.prepend_keymap]]
 on   = [ "i" ]
@@ -221,11 +207,6 @@ run  = "rename --empty=stem --cursor=start"
 desc = "Rename file and remove the file name"
 
 
-# Use ec to go to the config directory for Yazi
-[[manager.prepend_keymap]]
-on   = [ "e", "c" ]
-run  = "cd ~/.config/yazi"
-desc = "Edit the Yazi configuration"
 
 
 # Use gc to go to the config directory
@@ -345,3 +326,13 @@ desc = "Rename bookmark by fzf"
 on   = [ "c", "a" ]
 run  = "plugin compress"
 desc = "Archive selected files"
+
+[[manager.prepend_keymap]]
+on   = "o"
+run  = "plugin open-with-cmd --args=block"
+desc = "Open with command in the terminal"
+
+[[manager.prepend_keymap]]
+on   = "O"
+run  = "plugin open-with-cmd"
+desc = "Open with command"
