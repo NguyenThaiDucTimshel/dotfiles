@@ -1,0 +1,14 @@
+theme = catppuccin-mocha
+
+font-family = "JetBrainsMono Nerd Font"
+font-thicken = true
+font-size = 10
+
+mouse-hide-while-typing = true
+window-decoration = true
+keybind = global:cmd+s=toggle_quick_terminal
+
+background-opacity = 0.7
+background-blur-radius = 20
+gtk-adwaita = false
+cursor-style = bar
