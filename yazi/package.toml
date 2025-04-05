@@ -5,8 +5,8 @@ hash = "9f13f0740fa3a0c18e47ec6fb62ddfaa"
 
 [[plugin.deps]]
 use = "hankertrix/augment-command"
-rev = "926b1d1"
-hash = "a8a1927e911080120847e813dbc39bad"
+rev = "c448bc3"
+hash = "b1956cbe1f2514232df99accbe0d292"
 
 [[plugin.deps]]
 use = "h-hg/yamb"

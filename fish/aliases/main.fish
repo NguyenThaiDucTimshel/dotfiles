@@ -2,20 +2,8 @@
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-#list
-alias ls='ls --color=auto'
-alias la='ls -a'
-alias ll='ls -la'
-alias l='ls'
-alias l.="ls -A | egrep '^\.'"
-
 #fix obvious typo's
 alias cd..='cd ..'
-alias pdw="pwd"
-alias udpate='sudo pacman -Syyu'
-alias upate='sudo pacman -Syyu'
-alias updte='sudo pacman -Syyu'
-alias updqte='sudo pacman -Syyu'
 
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
@@ -86,24 +74,6 @@ alias rg="rg --sort path"
 #get the error messages from journalctl
 alias jctl="journalctl -p 3 -xb"
 
-#vim for important configuration files
-#know what you do in these files
-alias vlightdm="sudoedit $EDITOR /etc/lightdm/lightdm.conf"
-alias vpacman="sudoedit $EDITOR /etc/lightdm/lightdm.conf"
-alias vpacman="sudoedit $EDITOR /etc/pacman.conf"
-alias vgrub="sudoedit $EDITOR /etc/default/grub"
-alias vconfgrub="sudoedit $EDITOR /boot/grub/grub.cfg"
-alias vmkinitcpio="sudoedit $EDITOR /etc/mkinitcpio.conf"
-alias vmirrorlist="sudoedit $EDITOR /etc/pacman.d/mirrorlist"
-alias vsddm="sudoedit $EDITOR /etc/sddm.conf"
-alias vsddmk="sudoedit $EDITOR /etc/sddm.conf.d/kde_settings.conf"
-alias vfstab="sudoedit $EDITOR /etc/fstab"
-alias vnsswitch="sudoedit $EDITOR /etc/nsswitch.conf"
-alias vsamba="sudoedit $EDITOR /etc/samba/smb.conf"
-alias vgnupgconf="sudoedit $EDITOR /etc/pacman.d/gnupg/gpg.conf"
-alias vb="$EDITOR ~/.bashrc"
-alias vz="$EDITOR ~/.zshrc"
-
 #gpg
 #verify signature for isos
 alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
@@ -128,3 +98,4 @@ alias lazyvim="NVIM_APPNAME=lazyvim nvim"
 alias astronvim="NVIM_APPNAME=astronvim nvim"
 alias expa='expac -H M "%011m\t%-20n\t%10d" (comm -23 (pacman -Qqen | sort|psub) (begin; pacman -Qqg xorg; expac -l \'\n\' \'%E\' base; end | sort -u|psub)) | sort -n'
 alias sudoe='sudo -E nvim'
+alias pk="pacman -Qet | awk '{print \$1}' | xargs -I{} expac '%n [%a] - %d'"

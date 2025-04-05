@@ -1,3 +1,3 @@
-2025/03/29-15:07:19.915 be4 Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/29-15:07:19.915 be4 Recovering log #3
-2025/03/29-15:07:19.920 be4 Reusing old log /home/zen/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000003.log 
+2025/04/02-21:03:20.179 ecd Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/02-21:03:20.179 ecd Recovering log #3
+2025/04/02-21:03:20.190 ecd Reusing old log /home/zen/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000003.log 
