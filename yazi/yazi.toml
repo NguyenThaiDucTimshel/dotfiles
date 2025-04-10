@@ -35,6 +35,7 @@ emacs = [{ run = 'emacs -- "$@"', block = false, desc = "Open in Emacs" }]
 
 analyse = [{ run = 'spek -- "$@"', block = false, desc = "Analyse spectrum" }]
 
+
 # Configuration for the opener rules
 [open]
 prepend_rules = [

@@ -1461,7 +1461,7 @@ local M = {
 		local function Status_mime(self)
 			local url = cx.active.current.hovered and tostring(cx.active.current.hovered.url) or ""
 			if cx.active.preview.folder and #cx.active.preview.folder.window > 0 and st.task and st.task == url then
-				ya.manager_emit("plugin", { "mime-preview",   ya.quote(tostring(""))})	
+				ya.manager_emit("plugin", { "mime-preview", args = ya.quote(tostring(""))})	
 				st.task =  nil
 			end
 			if st.url ~= url then

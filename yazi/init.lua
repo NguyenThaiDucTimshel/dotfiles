@@ -92,10 +92,10 @@ require("yatline"):setup({
 		},
 		right = {
 			section_a = {
-				{ type = "string", custom = false, name = "hovered_size" },
+				{type = "string", custom = false, name = "hovered_mime"},
 			},
 			section_b = {
-				{ type = "string", custom = false, name = "hovered_path" },
+				{type = "string", custom = false, name = "tab_path"},
 			},
 			section_c = {},
 		},

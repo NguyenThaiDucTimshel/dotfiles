@@ -98,4 +98,4 @@ alias lazyvim="NVIM_APPNAME=lazyvim nvim"
 alias astronvim="NVIM_APPNAME=astronvim nvim"
 alias expa='expac -H M "%011m\t%-20n\t%10d" (comm -23 (pacman -Qqen | sort|psub) (begin; pacman -Qqg xorg; expac -l \'\n\' \'%E\' base; end | sort -u|psub)) | sort -n'
 alias sudoe='sudo -E nvim'
-alias pk="pacman -Qet | awk '{print \$1}' | xargs -I{} expac '%n [%a] - %d'"
+alias pk="pacman -Qe | awk '{print \$1}' | xargs -I{} expac '%n %a %d' {} | column -t -s ''"

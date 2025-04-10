@@ -448,7 +448,7 @@ function Yatline.string.get:hovered_file_extension(show_icon)
 		if cha.is_dir then
 			name = "dir"
 		else
-			name = get_file_extension(hovered.url:name())
+			name = get_file_extension(hovered.url.name)
 		end
 
 		if show_icon then
@@ -593,7 +593,7 @@ function Yatline.line.get:tabs(side)
 	for i = 1, tabs do
 		local text = i
 		if tab_width > 2 then
-			text = ya.truncate(text .. " " .. cx.tabs[i]:name(), { max = tab_width })
+			text = ya.truncate(text .. " " .. cx.tabs[i].name, { max = tab_width })
 		end
 
 		separator_style = { bg = nil, fg = nil }
