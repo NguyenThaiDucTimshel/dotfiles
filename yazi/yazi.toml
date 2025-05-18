@@ -23,7 +23,8 @@ scrolloff = 8
 
 # Configuration for the file previewer
 [preview]
-
+cache_dir = "~/.cache/yazi"
+image_quality = 75
 # Make the maximum size of the images larger
 max_width = 3000
 max_height = 3000

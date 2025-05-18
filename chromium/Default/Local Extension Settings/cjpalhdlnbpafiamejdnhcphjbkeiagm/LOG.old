@@ -1,3 +1,24 @@
-2025/04/04-18:36:05.649 2adb Reusing MANIFEST /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/04/04-18:36:05.650 2adb Recovering log #84
-2025/04/04-18:36:05.650 2adb Reusing old log /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000084.log 
+2025/05/15-18:20:46.403 2f65 Reusing MANIFEST /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/05/15-18:20:46.404 2f65 Recovering log #129
+2025/05/15-18:20:46.415 2f65 Reusing old log /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000129.log 
+2025/05/15-18:20:49.658 2f66 Level-0 table #133: started
+2025/05/15-18:20:49.673 2f66 Level-0 table #133: 4519678 bytes OK
+2025/05/15-18:20:49.676 2f66 Delete type=0 #129
+2025/05/15-18:20:49.677 2f66 Compacting 4@0 + 4@1 files
+2025/05/15-18:20:49.689 2f66 Generated table #134@0: 7 keys, 2346516 bytes
+2025/05/15-18:20:49.712 2f66 Generated table #135@0: 9 keys, 2970859 bytes
+2025/05/15-18:20:49.724 2f66 Generated table #136@0: 11 keys, 2224750 bytes
+2025/05/15-18:20:49.726 2f66 Generated table #137@0: 12 keys, 356255 bytes
+2025/05/15-18:20:49.726 2f66 Compacted 4@0 + 4@1 files => 7898380 bytes
+2025/05/15-18:20:49.728 2f66 compacted to: files[ 0 4 1 0 0 0 0 ]
+2025/05/15-18:20:49.728 2f66 Delete type=2 #119
+2025/05/15-18:20:49.728 2f66 Delete type=2 #120
+2025/05/15-18:20:49.728 2f66 Delete type=2 #121
+2025/05/15-18:20:49.728 2f66 Delete type=2 #122
+2025/05/15-18:20:49.729 2f66 Delete type=2 #125
+2025/05/15-18:20:49.729 2f66 Delete type=2 #127
+2025/05/15-18:20:49.729 2f66 Delete type=2 #130
+2025/05/15-18:20:49.729 2f66 Delete type=2 #133
+2025/05/15-18:20:50.788 2f66 Level-0 table #139: started
+2025/05/15-18:20:50.810 2f66 Level-0 table #139: 4721226 bytes OK
+2025/05/15-18:20:50.813 2f66 Delete type=0 #132

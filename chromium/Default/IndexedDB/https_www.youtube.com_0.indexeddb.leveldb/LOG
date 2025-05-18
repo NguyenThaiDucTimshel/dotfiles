@@ -1,3 +1,4 @@
-2025/04/07-22:56:37.401 1aef Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/04/07-22:56:37.402 1aef Recovering log #56
-2025/04/07-22:56:37.410 1aef Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000056.log 
+2025/04/14-19:00:04.738 4b85 Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/14-19:00:04.739 4b85 Recovering log #77
+2025/04/14-19:00:04.739 4b85 Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000077.log 
+2025/04/14-19:00:04.739 4b85 Delete type=2 #76
