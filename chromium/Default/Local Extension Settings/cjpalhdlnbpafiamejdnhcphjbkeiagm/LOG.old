@@ -1,24 +1,24 @@
-2025/05/15-18:20:46.403 2f65 Reusing MANIFEST /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/05/15-18:20:46.404 2f65 Recovering log #129
-2025/05/15-18:20:46.415 2f65 Reusing old log /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000129.log 
-2025/05/15-18:20:49.658 2f66 Level-0 table #133: started
-2025/05/15-18:20:49.673 2f66 Level-0 table #133: 4519678 bytes OK
-2025/05/15-18:20:49.676 2f66 Delete type=0 #129
-2025/05/15-18:20:49.677 2f66 Compacting 4@0 + 4@1 files
-2025/05/15-18:20:49.689 2f66 Generated table #134@0: 7 keys, 2346516 bytes
-2025/05/15-18:20:49.712 2f66 Generated table #135@0: 9 keys, 2970859 bytes
-2025/05/15-18:20:49.724 2f66 Generated table #136@0: 11 keys, 2224750 bytes
-2025/05/15-18:20:49.726 2f66 Generated table #137@0: 12 keys, 356255 bytes
-2025/05/15-18:20:49.726 2f66 Compacted 4@0 + 4@1 files => 7898380 bytes
-2025/05/15-18:20:49.728 2f66 compacted to: files[ 0 4 1 0 0 0 0 ]
-2025/05/15-18:20:49.728 2f66 Delete type=2 #119
-2025/05/15-18:20:49.728 2f66 Delete type=2 #120
-2025/05/15-18:20:49.728 2f66 Delete type=2 #121
-2025/05/15-18:20:49.728 2f66 Delete type=2 #122
-2025/05/15-18:20:49.729 2f66 Delete type=2 #125
-2025/05/15-18:20:49.729 2f66 Delete type=2 #127
-2025/05/15-18:20:49.729 2f66 Delete type=2 #130
-2025/05/15-18:20:49.729 2f66 Delete type=2 #133
-2025/05/15-18:20:50.788 2f66 Level-0 table #139: started
-2025/05/15-18:20:50.810 2f66 Level-0 table #139: 4721226 bytes OK
-2025/05/15-18:20:50.813 2f66 Delete type=0 #132
+2025/05/19-19:23:12.983 672e Reusing MANIFEST /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/05/19-19:23:12.983 672e Recovering log #143
+2025/05/19-19:23:12.983 672e Reusing old log /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000143.log 
+2025/05/19-19:23:17.502 672f Level-0 table #147: started
+2025/05/19-19:23:17.517 672f Level-0 table #147: 5126411 bytes OK
+2025/05/19-19:23:17.520 672f Delete type=0 #143
+2025/05/19-19:23:17.520 672f Compacting 4@0 + 4@1 files
+2025/05/19-19:23:17.533 672f Generated table #148@0: 7 keys, 2339388 bytes
+2025/05/19-19:23:17.559 672f Generated table #149@0: 9 keys, 2955424 bytes
+2025/05/19-19:23:17.586 672f Generated table #150@0: 11 keys, 2224270 bytes
+2025/05/19-19:23:17.589 672f Generated table #151@0: 13 keys, 358845 bytes
+2025/05/19-19:23:17.589 672f Compacted 4@0 + 4@1 files => 7877927 bytes
+2025/05/19-19:23:17.591 672f compacted to: files[ 0 4 1 0 0 0 0 ]
+2025/05/19-19:23:17.591 672f Delete type=2 #134
+2025/05/19-19:23:17.591 672f Delete type=2 #135
+2025/05/19-19:23:17.591 672f Delete type=2 #136
+2025/05/19-19:23:17.591 672f Delete type=2 #137
+2025/05/19-19:23:17.592 672f Delete type=2 #139
+2025/05/19-19:23:17.592 672f Delete type=2 #142
+2025/05/19-19:23:17.592 672f Delete type=2 #144
+2025/05/19-19:23:17.592 672f Delete type=2 #147
+2025/05/19-19:24:15.228 6730 Level-0 table #153: started
+2025/05/19-19:24:15.274 6730 Level-0 table #153: 9230446 bytes OK
+2025/05/19-19:24:15.276 6730 Delete type=0 #146

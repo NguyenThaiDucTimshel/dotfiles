@@ -1,0 +1,6 @@
+unmap [normal] <C-d>
+unmap [normal] <C-u>
+unmap [normal] d
+map [normal] d scroll half-down
+map [normal] u scroll half-up
+map [normal] <C-d> toggle_page_mode
