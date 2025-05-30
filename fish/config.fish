@@ -110,3 +110,8 @@ set RADV_PERFTEST video_decode
 zoxide init fish | source
 #starship init fish | source
 theme_tokyonight storm
+# Start SSH agent if not running
+if not set -q SSH_AUTH_SOCK
+    eval (ssh-agent -c | sed 's/^echo/#echo/')
+    ssh-add ~/.ssh/id_ed25519_new  # Replace with your key
+end

@@ -1,12 +1,12 @@
 [[plugin.deps]]
 use = "dedukun/relative-motions"
-rev = "61ae795"
-hash = "65d576a76597aac2a428dc7ec0eda2ce"
+rev = "ce2e890"
+hash = "23915860e59348bf4166778bb0e606f7"
 
 [[plugin.deps]]
 use = "hankertrix/augment-command"
-rev = "adebde0"
-hash = "eef0510c86fa6400f59ad03e0206e817"
+rev = "ac4a651"
+hash = "7b6b0b8c260c9c5e557287bf9b370f7c"
 
 [[plugin.deps]]
 use = "h-hg/yamb"
@@ -15,13 +15,13 @@ hash = "7cc42012a7c2099f80064d228feb8d44"
 
 [[plugin.deps]]
 use = "imsi32/yatline"
-rev = "6b0fc1e"
-hash = "ab115c6cc77f5710c27f39dfa2f3d4d"
+rev = "2ecf715"
+hash = "38e2ea4703ea606d4eef574e8e8b8fd7"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "a1738e8"
-hash = "1f3dad061209081a6b04dd6ff2cb06c7"
+rev = "c0ad8a3"
+hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
 use = "Ape/open-with-cmd"
@@ -35,18 +35,18 @@ hash = "a94dcbe9266512806c677138e8591ddb"
 
 [[plugin.deps]]
 use = "boydaihungst/mediainfo"
-rev = "436cb5f"
-hash = "144c0ac7a449fcab4e78e942eb41702c"
+rev = "c6d0de7"
+hash = "7b024fc14b462235068400207cbe7bf0"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-frappe"
-rev = "68326b4"
-hash = "7780fbbc8965da5a31a76a0dcd4d1216"
+rev = "d04a298"
+hash = "d659c6fde5148fb5c066518d7fdecddc"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
-rev = "68326b4"
-hash = "2ac87e1b3a61f5887472899e86535d29"
+rev = "d04a298"
+hash = "288a0dedd5d13b28605cf82c05326dcd"
 
 [[flavor.deps]]
 use = "dangooddd/kanagawa"
@@ -55,18 +55,18 @@ hash = "a04e157148549bacbb2831aab0e6e8cb"
 
 [[flavor.deps]]
 use = "BennyOe/onedark"
-rev = "fa1da70"
-hash = "b644cb6471caf78333fc1b3940ba3ca9"
+rev = "668d71d"
+hash = "5e616226586a2af1ecaf116e08e9a8ec"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-macchiato"
-rev = "68326b4"
-hash = "3ec21bcfd2735cfcbab61faaf43e59e4"
+rev = "d04a298"
+hash = "e6c5beeb1da3199355734273ee452a7f"
 
 [[flavor.deps]]
 use = "BennyOe/tokyo-night"
-rev = "695dac6"
-hash = "a8f426ea0d9cb843b081d62ab01364c8"
+rev = "b3950bf"
+hash = "319ce574cdb2865baf4323db90456504"
 
 [[flavor.deps]]
 use = "kalidyasin/yazi-flavors:tokyonight-storm"

@@ -474,7 +474,7 @@ function Yatline.string.get:tab_path(config)
 	local cwd = cx.active.current.cwd
 	local filter = cx.active.current.files.filter
 
-	local search = cwd.is_search and string.format(" (search: %s", cwd:frag()) or ""
+	local search = cwd.is_search and string.format(" (search: %s", cwd.frag) or ""
 
 	local suffix
 	if not filter then
@@ -1104,6 +1104,10 @@ return {
 				left = { section_a = {}, section_b = {}, section_c = {} },
 				right = { section_a = {}, section_b = {}, section_c = {} },
 			}
+
+		config.theme = (not rt.term.light and config.theme_dark)
+			or (rt.term.light and config.theme_light)
+			or config.theme
 
 		if config.theme then
 			for key, value in pairs(config.theme) do
