@@ -1,3 +1,36 @@
-2025/05/31-05:38:23.596 df5 Reusing MANIFEST /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/05/31-05:38:23.596 df5 Recovering log #192
-2025/05/31-05:38:23.597 df5 Reusing old log /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000192.log 
+2025/05/31-21:35:51.897 14b3 Reusing MANIFEST /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/05/31-21:35:51.898 14b3 Recovering log #195
+2025/05/31-21:35:51.904 14b3 Reusing old log /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000195.log 
+2025/05/31-21:36:45.523 14b2 Level-0 table #199: started
+2025/05/31-21:36:45.536 14b2 Level-0 table #199: 4167610 bytes OK
+2025/05/31-21:36:45.538 14b2 Delete type=0 #195
+2025/05/31-21:36:49.048 14bd Level-0 table #201: started
+2025/05/31-21:36:49.108 14bd Level-0 table #201: 5565207 bytes OK
+2025/05/31-21:36:49.111 14bd Delete type=0 #198
+2025/05/31-21:36:49.111 14bd Compacting 4@0 + 3@1 files
+2025/05/31-21:36:49.120 14bd Generated table #202@0: 4 keys, 2328646 bytes
+2025/05/31-21:36:49.135 14bd Generated table #203@0: 6 keys, 2783210 bytes
+2025/05/31-21:36:49.151 14bd Generated table #204@0: 4 keys, 2676163 bytes
+2025/05/31-21:36:49.203 14bd Generated table #205@0: 2 keys, 5565207 bytes
+2025/05/31-21:36:49.211 14bd Generated table #206@0: 8 keys, 1272662 bytes
+2025/05/31-21:36:49.211 14bd Compacted 4@0 + 3@1 files => 14625888 bytes
+2025/05/31-21:36:49.213 14bd compacted to: files[ 0 5 5 0 0 0 0 ]
+2025/05/31-21:36:49.214 14bd Delete type=2 #186
+2025/05/31-21:36:49.214 14bd Delete type=2 #187
+2025/05/31-21:36:49.214 14bd Delete type=2 #188
+2025/05/31-21:36:49.214 14bd Delete type=2 #193
+2025/05/31-21:36:49.214 14bd Delete type=2 #196
+2025/05/31-21:36:49.214 14bd Delete type=2 #199
+2025/05/31-21:36:49.214 14bd Delete type=2 #201
+2025/05/31-21:36:49.216 14bd Compacting 1@1 + 1@2 files
+2025/05/31-21:36:49.231 14bd Generated table #207@1: 6 keys, 2832111 bytes
+2025/05/31-21:36:49.232 14bd Compacted 1@1 + 1@2 files => 2832111 bytes
+2025/05/31-21:36:49.234 14bd compacted to: files[ 0 4 5 0 0 0 0 ]
+2025/05/31-21:36:49.234 14bd Delete type=2 #168
+2025/05/31-21:36:49.234 14bd Delete type=2 #204
+2025/05/31-21:36:49.234 14bd Compacting 1@1 + 1@2 files
+2025/05/31-21:36:49.278 14bd Generated table #208@1: 2 keys, 5565207 bytes
+2025/05/31-21:36:49.278 14bd Compacted 1@1 + 1@2 files => 5565207 bytes
+2025/05/31-21:36:49.281 14bd compacted to: files[ 0 3 5 0 0 0 0 ]
+2025/05/31-21:36:49.281 14bd Delete type=2 #169
+2025/05/31-21:36:49.281 14bd Delete type=2 #205

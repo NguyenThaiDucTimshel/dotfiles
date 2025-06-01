@@ -66,7 +66,7 @@ desc = "Enter the child directory, or open the file interactively"
 # Use the augmented enter command for the <Right> key
 # but without skipping directories
 [[mgr.prepend_keymap]]
-on   = [ "<Right>" ]
+on   = [ "L" ]
 run  = "plugin augment-command 'enter --no-skip'"
 desc = "Enter the child directory, or open the file"
 
@@ -81,7 +81,7 @@ desc = "Go back to the parent directory"
 # Use the augmented leave command for the <Left> key
 # but without skipping directories
 [[mgr.prepend_keymap]]
-on   = [ "<Left>" ]
+on   = [ "H" ]
 run  = "plugin augment-command 'leave --no-skip'"
 desc = "Go back to the parent directory"
 
