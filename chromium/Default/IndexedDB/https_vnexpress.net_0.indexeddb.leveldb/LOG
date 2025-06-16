@@ -1,14 +1,4 @@
-2025/05/07-17:46:29.907 4ef8 Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/07-17:46:29.907 4ef8 Recovering log #46
-2025/05/07-17:46:29.908 4ef8 Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/000046.log 
-2025/05/07-17:46:29.908 4ef8 Delete type=2 #44
-2025/05/07-17:46:29.934 4ef8 Level-0 table #51: started
-2025/05/07-17:46:29.936 4ef8 Level-0 table #51: 1712 bytes OK
-2025/05/07-17:46:29.938 4ef8 Delete type=0 #46
-2025/05/07-17:46:29.938 4ef8 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x00\x00\x05' @ 621 : 1
-2025/05/07-17:46:29.938 4ef8 Compacting 1@0 + 1@1 files
-2025/05/07-17:46:29.940 4ef8 Generated table #52@0: 72 keys, 3073 bytes
-2025/05/07-17:46:29.940 4ef8 Compacted 1@0 + 1@1 files => 3073 bytes
-2025/05/07-17:46:29.942 4ef8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/05/07-17:46:29.943 4ef8 Delete type=2 #51
-2025/05/07-17:46:29.943 4ef8 Manual compaction at level-0 from '\x00\x0f\x00\x00\x05' @ 621 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/15-10:03:07.703 923a Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/15-10:03:07.703 923a Recovering log #54
+2025/06/15-10:03:07.703 923a Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/000054.log 
+2025/06/15-10:03:07.703 923a Delete type=2 #52

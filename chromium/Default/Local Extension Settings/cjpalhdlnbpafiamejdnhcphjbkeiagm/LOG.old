@@ -1,6 +1,6 @@
-2025/05/31-21:35:18.613 1072 Reusing MANIFEST /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/05/31-21:35:18.613 1072 Recovering log #192
-2025/05/31-21:35:18.614 1072 Reusing old log /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000192.log 
-2025/05/31-21:35:23.236 1067 Level-0 table #196: started
-2025/05/31-21:35:23.249 1067 Level-0 table #196: 4603735 bytes OK
-2025/05/31-21:35:23.254 1067 Delete type=0 #192
+2025/06/08-18:55:24.324 1888 Reusing MANIFEST /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/06/08-18:55:24.325 1888 Recovering log #200
+2025/06/08-18:55:24.326 1888 Reusing old log /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000200.log 
+2025/06/08-18:55:28.900 1889 Level-0 table #211: started
+2025/06/08-18:55:28.913 1889 Level-0 table #211: 4384760 bytes OK
+2025/06/08-18:55:28.915 1889 Delete type=0 #200
