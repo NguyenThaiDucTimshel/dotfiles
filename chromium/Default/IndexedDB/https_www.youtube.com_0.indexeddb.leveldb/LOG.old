@@ -1,12 +1,9 @@
-2025/05/30-18:50:46.649 1065 Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/30-18:50:46.649 1065 Recovering log #96
-2025/05/30-18:50:46.655 1065 Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000096.log 
-2025/05/30-18:50:51.158 1066 Level-0 table #101: started
-2025/05/30-18:50:51.180 1066 Level-0 table #101: 1669253 bytes OK
-2025/05/30-18:50:51.183 1066 Delete type=0 #96
-2025/05/30-18:51:06.465 1066 Compacting 1@1 + 1@2 files
-2025/05/30-18:51:06.472 1066 Generated table #102@1: 315 keys, 58341 bytes
-2025/05/30-18:51:06.472 1066 Compacted 1@1 + 1@2 files => 58341 bytes
-2025/05/30-18:51:06.474 1066 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/05/30-18:51:06.474 1066 Delete type=2 #98
-2025/05/30-18:51:06.474 1066 Delete type=2 #101
+2025/07/28-20:57:49.578 3d5b Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/28-20:57:49.578 3d5b Recovering log #119
+2025/07/28-20:57:49.580 3d5b Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000119.log 
+2025/07/28-20:57:50.501 3d67 Compacting 1@1 + 1@2 files
+2025/07/28-20:57:50.506 3d67 Generated table #122@1: 358 keys, 118230 bytes
+2025/07/28-20:57:50.506 3d67 Compacted 1@1 + 1@2 files => 118230 bytes
+2025/07/28-20:57:50.511 3d67 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/28-20:57:50.511 3d67 Delete type=2 #117
+2025/07/28-20:57:50.511 3d67 Delete type=2 #120

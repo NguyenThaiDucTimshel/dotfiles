@@ -208,31 +208,6 @@ function create_select_tracklist_type_menu_opener(opts)
 		return tonumber(mp.get_property(opts.prop)), snd and tonumber(mp.get_property(snd.prop)) or nil
 	end
 
-	local function escape_codec(str)
-		if not str or str == '' then return '' end
-	
-		local codec_map = {
-			mpeg2 = "mpeg2",
-			dvvideo = "dv",
-			pcm = "pcm",
-			pgs = "pgs",
-			subrip = "srt",
-			vtt = "vtt",
-			dvd_sub = "vob",
-			dvb_sub = "dvb",
-			dvb_tele = "teletext",
-			arib = "arib"
-		}
-	
-		for key, value in pairs(codec_map) do
-			if str:find(key) then
-				return value
-			end
-		end
-	
-		return str
-	end
-
 	local function serialize_tracklist(tracklist)
 		local items = {}
 
@@ -285,15 +260,14 @@ function create_select_tracklist_type_menu_opener(opts)
 				if track['demux-h'] then
 					h(track['demux-w'] and (track['demux-w'] .. 'x' .. track['demux-h']) or (track['demux-h'] .. 'p'))
 				end
-				if track['demux-fps'] then h(string.format('%.5g fps', track['demux-fps'])) end
-				if track['codec'] then h(escape_codec(track.codec)) end
+				if track['demux-fps'] then h(string.format('%.5gfps', track['demux-fps'])) end
+				h(track.codec)
 				if track['audio-channels'] then
 					h(track['audio-channels'] == 1
 						and t('%s channel', track['audio-channels'])
 						or t('%s channels', track['audio-channels']))
 				end
-				if track['demux-samplerate'] then h(string.format('%.3g kHz', track['demux-samplerate'] / 1000)) end
-				if track['demux-bitrate'] then h(string.format('%.0f kbps', track['demux-bitrate'] / 1000)) end
+				if track['demux-samplerate'] then h(string.format('%.3gkHz', track['demux-samplerate'] / 1000)) end
 				if track.forced then h(t('forced')) end
 				if track.default then h(t('default')) end
 				if track.external then
@@ -420,7 +394,7 @@ function open_file_navigation_menu(directory_path, handle_activate, opts)
 			local items, selected_index = {}, 1
 
 			if process.status == 0 then
-				for drive in process.stdout:gmatch("(%a:)\\") do
+				for drive in process.stdout:gmatch('(%a:)\\') do
 					if drive then
 						local drive_path = normalize_path(drive)
 						items[#items + 1] = {
@@ -692,7 +666,8 @@ do
 						-- If command is already in menu, just append the key to it
 						if key ~= '#' and command ~= '' and target_menu.items_by_command[command] then
 							local hint = target_menu.items_by_command[command].hint
-							target_menu.items_by_command[command].hint = hint and hint .. ', ' .. key or key
+							local key_human = keybind_to_human(key)
+							target_menu.items_by_command[command].hint = hint and hint .. ', ' .. key_human or key_human
 						else
 							-- Separator
 							if title_part:sub(1, 3) == '---' then
@@ -701,7 +676,7 @@ do
 							elseif command ~= 'ignore' then
 								local item = {
 									title = title_part,
-									hint = not is_dummy and key or nil,
+									hint = not is_dummy and keybind_to_human(key) or nil,
 									value = command,
 								}
 								if command == '' then
@@ -740,7 +715,7 @@ function get_keybinds_items()
 		local id = bind.key .. '<>' .. bind.cmd
 		if not ids[id] then
 			ids[id] = true
-			items[#items + 1] = {title = bind.cmd, hint = bind.key, value = bind.cmd}
+			items[#items + 1] = {title = bind.cmd, hint = keybind_to_human(bind.key) or bind.key, value = bind.cmd}
 		end
 	end
 
@@ -1128,6 +1103,7 @@ function open_subtitle_downloader()
 			on_search = 'callback',
 			search_debounce = 'submit',
 			search_suggestion = search_suggestion,
+			search_submit = search_suggestion and #search_suggestion > 0,
 		},
 		function(event)
 			if event.type == 'activate' then

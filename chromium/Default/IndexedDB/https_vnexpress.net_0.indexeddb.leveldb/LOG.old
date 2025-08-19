@@ -1,14 +1,13 @@
-2025/06/08-18:55:38.191 1888 Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/MANIFEST-000001
-2025/06/08-18:55:38.191 1888 Recovering log #50
-2025/06/08-18:55:38.192 1888 Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/000050.log 
-2025/06/08-18:55:38.192 1888 Delete type=2 #48
-2025/06/08-18:55:38.433 1888 Level-0 table #55: started
-2025/06/08-18:55:38.435 1888 Level-0 table #55: 3072 bytes OK
-2025/06/08-18:55:38.437 1888 Delete type=0 #50
-2025/06/08-18:55:38.438 1888 Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at '\x00\x10\x00\x00\x05' @ 698 : 1
-2025/06/08-18:55:38.438 1888 Compacting 1@0 + 1@1 files
-2025/06/08-18:55:38.439 1888 Generated table #56@0: 90 keys, 3983 bytes
-2025/06/08-18:55:38.439 1888 Compacted 1@0 + 1@1 files => 3983 bytes
-2025/06/08-18:55:38.442 1888 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/06/08-18:55:38.442 1888 Delete type=2 #55
-2025/06/08-18:55:38.442 1888 Manual compaction at level-0 from '\x00\x10\x00\x00\x05' @ 698 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/18-22:29:16.939 ad83 Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/18-22:29:16.940 ad83 Recovering log #54
+2025/06/18-22:29:16.940 ad83 Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/000054.log 
+2025/06/18-22:29:17.663 ad83 Level-0 table #59: started
+2025/06/18-22:29:17.665 ad83 Level-0 table #59: 3621 bytes OK
+2025/06/18-22:29:17.667 ad83 Delete type=0 #54
+2025/06/18-22:29:17.667 ad83 Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 797 : 1
+2025/06/18-22:29:17.667 ad83 Compacting 1@0 + 1@1 files
+2025/06/18-22:29:17.669 ad83 Generated table #60@0: 106 keys, 4926 bytes
+2025/06/18-22:29:17.669 ad83 Compacted 1@0 + 1@1 files => 4926 bytes
+2025/06/18-22:29:17.671 ad83 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/18-22:29:17.671 ad83 Delete type=2 #59
+2025/06/18-22:29:17.671 ad83 Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 797 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)

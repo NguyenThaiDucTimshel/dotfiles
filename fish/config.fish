@@ -115,3 +115,4 @@ if not set -q SSH_AUTH_SOCK
     eval (ssh-agent -c | sed 's/^echo/#echo/')
     ssh-add ~/.ssh/id_ed25519_new  # Replace with your key
 end
+set -gx BTOP_GPU_LIBRARY "/usr/lib/libnvidia-ml.so"

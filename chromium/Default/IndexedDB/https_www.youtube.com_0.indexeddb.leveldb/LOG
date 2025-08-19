@@ -1,3 +1,3 @@
-2025/05/30-19:21:07.376 3ab7 Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/30-19:21:07.376 3ab7 Recovering log #100
-2025/05/30-19:21:07.378 3ab7 Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000100.log 
+2025/08/03-13:38:03.295 efe Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/03-13:38:03.295 efe Recovering log #119
+2025/08/03-13:38:03.300 efe Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000119.log 

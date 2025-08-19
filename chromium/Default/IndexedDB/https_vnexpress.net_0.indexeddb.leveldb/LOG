@@ -1,4 +1,14 @@
-2025/06/15-10:03:07.703 923a Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/MANIFEST-000001
-2025/06/15-10:03:07.703 923a Recovering log #54
-2025/06/15-10:03:07.703 923a Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/000054.log 
-2025/06/15-10:03:07.703 923a Delete type=2 #52
+2025/06/18-22:29:25.441 af27 Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/18-22:29:25.441 af27 Recovering log #58
+2025/06/18-22:29:25.441 af27 Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/000058.log 
+2025/06/18-22:29:25.441 af27 Delete type=2 #56
+2025/06/18-22:29:25.478 af25 Level-0 table #63: started
+2025/06/18-22:29:25.479 af25 Level-0 table #63: 652 bytes OK
+2025/06/18-22:29:25.481 af25 Delete type=0 #58
+2025/06/18-22:29:25.482 af25 Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at '\x00\x12\x00\x00\x05' @ 816 : 1
+2025/06/18-22:29:25.482 af25 Compacting 1@0 + 1@1 files
+2025/06/18-22:29:25.484 af25 Generated table #64@0: 110 keys, 4959 bytes
+2025/06/18-22:29:25.484 af25 Compacted 1@0 + 1@1 files => 4959 bytes
+2025/06/18-22:29:25.487 af25 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/18-22:29:25.487 af25 Delete type=2 #63
+2025/06/18-22:29:25.487 af25 Manual compaction at level-0 from '\x00\x12\x00\x00\x05' @ 816 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)
