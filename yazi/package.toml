@@ -9,18 +9,8 @@ rev = "120406f"
 hash = "e83ccc99739cd500fb1b1014dc45824a"
 
 [[plugin.deps]]
-use = "h-hg/yamb"
-rev = "22af003"
-hash = "7cc42012a7c2099f80064d228feb8d44"
-
-[[plugin.deps]]
-use = "imsi32/yatline"
-rev = "88bd1c5"
-hash = "981acbe9b758b1af3a8154c932bb936d"
-
-[[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "de53d90"
+rev = "d1c8baa"
 hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
@@ -30,55 +20,65 @@ hash = "86e0312b01bc5762813c6c1d0517f073"
 
 [[plugin.deps]]
 use = "TD-Sky/sudo"
-rev = "af70636"
-hash = "a94dcbe9266512806c677138e8591ddb"
+rev = "f35afcb"
+hash = "5db5b16dc96e971f0560a31999271065"
 
 [[plugin.deps]]
 use = "boydaihungst/mediainfo"
-rev = "f89605c"
-hash = "caab106cfebeb0ba45034bd0e22c0c83"
+rev = "2093ab7"
+hash = "16a10359fc2a3cd8cc8bcfbe00f744d3"
 
 [[plugin.deps]]
-use = "GrzegorzKozub/mdcat"
-rev = "7b7380a"
-hash = "40c20e6c1085d1f45309b9f148bf4f6e"
+use = "yazi-rs/plugins:piper"
+rev = "d1c8baa"
+hash = "a20327710c3a8d37ee0972128dcb6a31"
+
+[[plugin.deps]]
+use = "KKV9/compress"
+rev = "c264639"
+hash = "e17c11b605d989568a1d1741ca17c584"
+
+[[plugin.deps]]
+use = "WhoSowSee/whoosh"
+rev = "b71caff"
+hash = "8d19d6aa0b68930d8f428f3217e3539d"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-frappe"
-rev = "d3fd3a5"
-hash = "d659c6fde5148fb5c066518d7fdecddc"
+rev = "4296a38"
+hash = "e994de76d3016b563f984452e15c81bd"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
-rev = "d3fd3a5"
-hash = "288a0dedd5d13b28605cf82c05326dcd"
+rev = "4296a38"
+hash = "a48ba8510a1d61483767c042269f3171"
 
 [[flavor.deps]]
 use = "dangooddd/kanagawa"
-rev = "31167ed"
-hash = "a04e157148549bacbb2831aab0e6e8cb"
+rev = "a0b1d9d"
+hash = "b33673cdc5d3d68b478085e3e06182d9"
 
 [[flavor.deps]]
 use = "BennyOe/onedark"
 rev = "668d71d"
-hash = "5e616226586a2af1ecaf116e08e9a8ec"
+hash = "1e647ba2d7c6e6f2bafe858ad9a4e50a"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-macchiato"
-rev = "d3fd3a5"
-hash = "e6c5beeb1da3199355734273ee452a7f"
+rev = "4296a38"
+hash = "2132f6ecc3543278968cfcc8ec97cbf4"
 
 [[flavor.deps]]
 use = "BennyOe/tokyo-night"
 rev = "5f56364"
-hash = "c0bf69ad2c44005892d586e9693993c6"
+hash = "ea25e1f0f25b0521ef78fd4e9698ff52"
 
 [[flavor.deps]]
 use = "kalidyasin/yazi-flavors:tokyonight-storm"
 rev = "fa19b40"
-hash = "b9aa812b133d03b4445beac37c28caa8"
+hash = "91bd85a94f1a11f3f994906b729375ae"
 
 [[flavor.deps]]
 use = "kalidyasin/yazi-flavors:tokyonight-moon"
 rev = "fa19b40"
-hash = "716fd834e7d9cdb80c9d111657f637c2"
+hash = "92456bb341a39ad5e30c78b30de72e28"

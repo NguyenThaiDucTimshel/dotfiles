@@ -72,7 +72,7 @@ alias cleanut='yay -Sc --noconfirm'
 alias rg="rg --sort path"
 
 #get the error messages from journalctl
-alias jctl="journalctl -p 3 -xb"
+alias jctl="journalctl -p 4 -xb"
 
 #gpg
 #verify signature for isos
@@ -93,18 +93,19 @@ alias sr="sudo reboot"
 
 #give the list of all installed desktops - xsessions desktops
 alias xd="ls /usr/share/xsessions"
-alias nvchad="NVIM_APPNAME=nvchad nvim"
-alias lazyvim="NVIM_APPNAME=lazyvim nvim"
-alias astronvim="NVIM_APPNAME=astronvim nvim"
 alias expa='expac -H M "%011m\t%-20n\t%10d" (comm -23 (pacman -Qqet | sort|psub) (begin; pacman -Qqg xorg; expac -l \'\n\' \'%E\' base; end | sort -u|psub)) | sort -n'
 alias sudoe='sudo -E nvim'
 alias pk="pacman -Qe | awk '{print \$1}' | xargs -I{} expac '%n %a %d' {} | column -t -s ''"
+alias icc='warp-cli connect'
+alias icd='warp-cli disconnect'
+alias ics='warp-cli status'
 
 # Transcription function for Japanese subtitles
-function transcribe
+function ts 
     set input_file $argv[1]
+    set dir_name (dirname "$input_file")
     set base_name (basename "$input_file" | string replace -r '\.[^.]*$' '')
     
     ffmpeg -i "$input_file" -vn -acodec pcm_s16le -ar 44100 -ac 2 -f wav - | \
-    whisper-cli -l ja -osrt -m /home/zen/Downloads/ggml-medium.bin -f - -of "$base_name.srt"
+    whisper-cli -l ja -osrt -m /home/zen/Downloads/ggml-medium.bin -f - -of "$dir_name/$base_name"
 end

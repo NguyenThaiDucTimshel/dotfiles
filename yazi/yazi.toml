@@ -60,7 +60,8 @@ prepend_rules = [
   ]
   prepend_previewers = [
     # Replace magick, image, video with mediainfo
-    { name = "*.md", run = "mdcat" },
     { mime = "{audio,video,image}/*", run = "mediainfo"},
+    { mime = "*.md", run = 'piper -- CLICOLOR_FORCE=1 glow -w=$w -s=dark "$1"'},
+    { mime = "inode/directory", run = 'piper -- eza -TL=3 --color=always --icons=always --group-directories-first --no-quotes "$1"'},
     { mime = "application/subrip", run = "mediainfo" },
   ]
