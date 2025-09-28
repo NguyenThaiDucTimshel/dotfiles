@@ -37,10 +37,6 @@ end
 contains /usr/local/bin $PATH
 or set PATH /usr/local/bin $PATH
 
-if [ -f $HOME/.config/fish/env/index.fish ]
-    source $HOME/.config/fish/env/index.fish
-end
-
 #
 ### ALIAS
 #
@@ -109,7 +105,6 @@ set RADV_PERFTEST video_decode
 # fish_prompt defined in ~/.config/fish/functions/fish_prompt.fish
 zoxide init fish | source
 #starship init fish | source
-theme_tokyonight storm
 # Start SSH agent if not running
 if not set -q SSH_AUTH_SOCK
     eval (ssh-agent -c | sed 's/^echo/#echo/')

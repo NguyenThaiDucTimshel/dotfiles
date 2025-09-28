@@ -1,27 +1,3 @@
-2025/09/13-06:49:05.107 1a79 Reusing MANIFEST /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/09/13-06:49:05.108 1a79 Recovering log #363
-2025/09/13-06:49:05.112 1a79 Reusing old log /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000363.log 
-2025/09/13-06:49:11.835 1a7a Level-0 table #367: started
-2025/09/13-06:49:11.849 1a7a Level-0 table #367: 5159418 bytes OK
-2025/09/13-06:49:11.852 1a7a Delete type=0 #363
-2025/09/13-06:49:15.270 1a7a Level-0 table #369: started
-2025/09/13-06:49:15.295 1a7a Level-0 table #369: 4840911 bytes OK
-2025/09/13-06:49:15.297 1a7a Delete type=0 #366
-2025/09/13-06:49:15.298 1a7a Compacting 4@0 + 4@1 files
-2025/09/13-06:49:15.308 1a7a Generated table #370@0: 4 keys, 2567771 bytes
-2025/09/13-06:49:15.327 1a7a Generated table #371@0: 7 keys, 3064149 bytes
-2025/09/13-06:49:15.349 1a7a Generated table #372@0: 9 keys, 2133978 bytes
-2025/09/13-06:49:15.352 1a7a Generated table #373@0: 6 keys, 336138 bytes
-2025/09/13-06:49:15.352 1a7a Compacted 4@0 + 4@1 files => 8102036 bytes
-2025/09/13-06:49:15.354 1a7a compacted to: files[ 0 4 5 0 0 0 0 ]
-2025/09/13-06:49:15.355 1a7a Delete type=2 #356
-2025/09/13-06:49:15.355 1a7a Delete type=2 #357
-2025/09/13-06:49:15.355 1a7a Delete type=2 #358
-2025/09/13-06:49:15.355 1a7a Delete type=2 #359
-2025/09/13-06:49:15.355 1a7a Delete type=2 #361
-2025/09/13-06:49:15.355 1a7a Delete type=2 #364
-2025/09/13-06:49:15.355 1a7a Delete type=2 #367
-2025/09/13-06:49:15.355 1a7a Delete type=2 #369
-2025/09/13-06:50:16.695 1a79 Level-0 table #375: started
-2025/09/13-06:50:16.730 1a79 Level-0 table #375: 7073977 bytes OK
-2025/09/13-06:50:16.732 1a79 Delete type=0 #368
+2025/09/27-08:38:55.887 113a1 Reusing MANIFEST /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/09/27-08:38:55.888 113a1 Recovering log #391
+2025/09/27-08:38:55.896 113a1 Reusing old log /home/zen/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000391.log 

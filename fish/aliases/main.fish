@@ -56,7 +56,7 @@ alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
 
 #get fastest mirrors in your neighborhood
 alias mirror="sudo reflector  -c VN,SG,HK -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
-alias mirrord="sudo cachyos-rate-mirrors"
+alias mirrord="sudo cachyos-rate-mirrors;rate-mirrors chaotic-aur | sudo tee /etc/pacman.d/chaotic-mirrorlist"
 alias mirrors="sudo reflector -c VN,SG,HK --latest 30 --number 10 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector -c VN,SG,HK --latest 30 --number 10 --sort age --save /etc/pacman.d/mirrorlist"
 
@@ -104,8 +104,7 @@ alias ics='warp-cli status'
 function ts 
     set input_file $argv[1]
     set dir_name (dirname "$input_file")
-    set base_name (basename "$input_file" | string replace -r '\.[^.]*$' '')
+    set base_name (basename "$input_file" | string replace -r '\.[^.]*$' '.srt')
     
-    ffmpeg -i "$input_file" -vn -acodec pcm_s16le -ar 44100 -ac 2 -f wav - | \
-    whisper-cli -l ja -osrt -m /home/zen/Downloads/ggml-medium.bin -f - -of "$dir_name/$base_name"
+    /home/zen/Downloads/ffmpeg -i "$input_file" -vn -af "whisper=model=/home/zen/Downloads/ggml-medium-q8_0.bin:language=ja:queue=5:use_gpu=true:gpu_device=0:destination=$dir_name/$base_name:format=srt" -f null -
 end

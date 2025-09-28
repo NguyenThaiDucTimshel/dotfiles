@@ -14,13 +14,8 @@ rev = "d1c8baa"
 hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
-use = "Ape/open-with-cmd"
-rev = "433cf30"
-hash = "86e0312b01bc5762813c6c1d0517f073"
-
-[[plugin.deps]]
 use = "TD-Sky/sudo"
-rev = "f35afcb"
+rev = "8148f91"
 hash = "5db5b16dc96e971f0560a31999271065"
 
 [[plugin.deps]]
@@ -42,6 +37,16 @@ hash = "e17c11b605d989568a1d1741ca17c584"
 use = "WhoSowSee/whoosh"
 rev = "b71caff"
 hash = "8d19d6aa0b68930d8f428f3217e3539d"
+
+[[plugin.deps]]
+use = "llanosrocas/yaziline"
+rev = "e7042a8"
+hash = "9c2ab18ff5368056904e4ebb61b17571"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:mime-ext"
+rev = "d1c8baa"
+hash = "4c49c446328c4553a4ccab7facc10b21"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-frappe"

@@ -36,11 +36,14 @@ emacs = [{ run = 'emacs -- "$@"', block = false, desc = "Open in Emacs" }]
 
 analyse = [{ run = 'spek -- "$@"', block = false, desc = "Analyse spectrum" }]
 
+mpv = [{ run = 'mpv -- "$@"', block = false, desc = "Play with mpv" }]
+
 
 # Configuration for the opener rules
 [open]
 prepend_rules = [
     { mime = "{audio,video}/*", use = [
+        "mpv",
         "play",
         "reveal",
         "analyse",
@@ -64,4 +67,7 @@ prepend_rules = [
     { mime = "*.md", run = 'piper -- CLICOLOR_FORCE=1 glow -w=$w -s=dark "$1"'},
     { mime = "inode/directory", run = 'piper -- eza -TL=3 --color=always --icons=always --group-directories-first --no-quotes "$1"'},
     { mime = "application/subrip", run = "mediainfo" },
+  ]
+  prepend_fetchers = [
+    { id = "mime", name = "*", run = "mime-ext", prio = "high" }
   ]
