@@ -1,3 +1,9 @@
-2025/09/27-08:38:55.272 5 Reusing MANIFEST /home/zen/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2025/09/27-08:38:55.278 5 Recovering log #57
-2025/09/27-08:38:55.278 5 Reusing old log /home/zen/.config/chromium/Default/Local Storage/leveldb/000057.log 
+2025/10/19-19:24:13.211 5 Reusing MANIFEST /home/zen/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/10/19-19:24:13.215 5 Recovering log #111
+2025/10/19-19:24:13.215 5 Reusing old log /home/zen/.config/chromium/Default/Local Storage/leveldb/000111.log 
+2025/10/19-19:35:32.997 7 Level-0 table #115: started
+2025/10/19-19:35:33.003 7 Level-0 table #115: 66761 bytes OK
+2025/10/19-19:35:33.006 7 Delete type=0 #111
+2025/10/19-19:37:21.302 7 Level-0 table #117: started
+2025/10/19-19:37:21.307 7 Level-0 table #117: 32789 bytes OK
+2025/10/19-19:37:21.310 7 Delete type=0 #114

@@ -41,19 +41,23 @@ notify_user() {
 
 # Increase Volume
 inc_volume() {
+    # Use the first argument passed to the function ($1) as the step, or default to 5
+    local step=${1:-5}
     if [ "$(pamixer --get-mute)" == "true" ]; then
         toggle_mute
     else
-        pamixer -i 5 --allow-boost --set-limit 150 && notify_user
+        pamixer -i "$step" --allow-boost --set-limit 150 && notify_user
     fi
 }
 
 # Decrease Volume
 dec_volume() {
+    # Use the first argument passed to the function ($1) as the step, or default to 5
+    local step=${1:-5}
     if [ "$(pamixer --get-mute)" == "true" ]; then
         toggle_mute
     else
-        pamixer -d 5 && notify_user
+        pamixer -d "$step" && notify_user
     fi
 }
 
@@ -123,9 +127,9 @@ dec_mic_volume() {
 if [[ "$1" == "--get" ]]; then
 	get_volume
 elif [[ "$1" == "--inc" ]]; then
-	inc_volume
+	inc_volume "$2"
 elif [[ "$1" == "--dec" ]]; then
-	dec_volume
+	dec_volume "$2"
 elif [[ "$1" == "--toggle" ]]; then
 	toggle_mute
 elif [[ "$1" == "--toggle-mic" ]]; then
@@ -135,9 +139,9 @@ elif [[ "$1" == "--get-icon" ]]; then
 elif [[ "$1" == "--get-mic-icon" ]]; then
 	get_mic_icon
 elif [[ "$1" == "--mic-inc" ]]; then
-	inc_mic_volume
+	inc_mic_volume "$2"
 elif [[ "$1" == "--mic-dec" ]]; then
-	dec_mic_volume
+	dec_mic_volume "$2"
 else
 	get_volume
 fi

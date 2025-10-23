@@ -204,14 +204,6 @@ on   = [ "g", "c" ]
 run  = "cd ~/.config"
 desc = "Go to the config directory"
 
-
-# Use gp to go to the projects directory
-[[mgr.prepend_keymap]]
-on   = [ "g", "g" ]
-run = "tab_switch 1 --relative"
-desc = "Switch to the next tab"
-
-
 # Use gu to go to school directory
 [[mgr.prepend_keymap]]
 on   = [ "g", "f" ]
@@ -393,6 +385,12 @@ desc = "sudo trash"
 on = ["R", "D"]
 run = "plugin sudo -- remove --permanently"
 desc = "sudo delete"
+
+# keymap.toml
+[[mgr.prepend_keymap]]
+on   = "T"
+run  = "plugin toggle-pane min-preview"
+desc = "Show or hide the preview pane"
 
 
 

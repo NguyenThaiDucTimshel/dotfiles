@@ -10,7 +10,7 @@ hash = "e83ccc99739cd500fb1b1014dc45824a"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "d1c8baa"
+rev = "9a52857"
 hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
@@ -25,7 +25,7 @@ hash = "16a10359fc2a3cd8cc8bcfbe00f744d3"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "d1c8baa"
+rev = "9a52857"
 hash = "a20327710c3a8d37ee0972128dcb6a31"
 
 [[plugin.deps]]
@@ -34,29 +34,34 @@ rev = "c264639"
 hash = "e17c11b605d989568a1d1741ca17c584"
 
 [[plugin.deps]]
-use = "WhoSowSee/whoosh"
-rev = "b71caff"
-hash = "8d19d6aa0b68930d8f428f3217e3539d"
-
-[[plugin.deps]]
 use = "llanosrocas/yaziline"
 rev = "e7042a8"
 hash = "9c2ab18ff5368056904e4ebb61b17571"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:mime-ext"
-rev = "d1c8baa"
+rev = "9a52857"
 hash = "4c49c446328c4553a4ccab7facc10b21"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "9a52857"
+hash = "3cce60031b27cbce80b50f68ca319c0a"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "9a52857"
+hash = "8a7c58225816a163a6e8730c0adafbc8"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-frappe"
-rev = "4296a38"
-hash = "e994de76d3016b563f984452e15c81bd"
+rev = "2d73b79"
+hash = "218486cb3f4ac767821baf8d3c6c5f3a"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
-rev = "4296a38"
-hash = "a48ba8510a1d61483767c042269f3171"
+rev = "2d73b79"
+hash = "762fb0e5744f0166049cfc69946bc0c7"
 
 [[flavor.deps]]
 use = "dangooddd/kanagawa"
@@ -70,8 +75,8 @@ hash = "1e647ba2d7c6e6f2bafe858ad9a4e50a"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-macchiato"
-rev = "4296a38"
-hash = "2132f6ecc3543278968cfcc8ec97cbf4"
+rev = "2d73b79"
+hash = "511cd19cdec4d505ecf9c1e0d45e5973"
 
 [[flavor.deps]]
 use = "BennyOe/tokyo-night"

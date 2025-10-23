@@ -1,3 +1,15 @@
-2025/09/25-18:36:21.967 150e Reusing MANIFEST /home/zen/.config/chromium/Default/Extension State/MANIFEST-000001
-2025/09/25-18:36:21.968 150e Recovering log #10
-2025/09/25-18:36:21.997 150e Reusing old log /home/zen/.config/chromium/Default/Extension State/000010.log 
+2025/10/19-19:11:55.145 2eeb Reusing MANIFEST /home/zen/.config/chromium/Default/Extension State/MANIFEST-000001
+2025/10/19-19:11:55.147 2eeb Recovering log #16
+2025/10/19-19:11:55.155 2eeb Reusing old log /home/zen/.config/chromium/Default/Extension State/000016.log 
+2025/10/19-19:17:51.100 2e3c Level-0 table #20: started
+2025/10/19-19:17:51.112 2e3c Level-0 table #20: 1184118 bytes OK
+2025/10/19-19:17:51.115 2e3c Delete type=0 #16
+2025/10/19-19:17:51.116 2e3c Compacting 4@0 + 1@1 files
+2025/10/19-19:17:51.127 2e3c Generated table #21@0: 9 keys, 22330 bytes
+2025/10/19-19:17:51.127 2e3c Compacted 4@0 + 1@1 files => 22330 bytes
+2025/10/19-19:17:51.129 2e3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/19-19:17:51.129 2e3c Delete type=2 #8
+2025/10/19-19:17:51.129 2e3c Delete type=2 #11
+2025/10/19-19:17:51.129 2e3c Delete type=2 #14
+2025/10/19-19:17:51.129 2e3c Delete type=2 #17
+2025/10/19-19:17:51.129 2e3c Delete type=2 #20

@@ -29,7 +29,6 @@ image_quality = 75
 max_width = 3000
 max_height = 3000
 
-
 # Configuration for the openers
 [opener]
 emacs = [{ run = 'emacs -- "$@"', block = false, desc = "Open in Emacs" }]
@@ -60,14 +59,19 @@ prepend_rules = [
     # Replace magick, image, video with mediainfo
     { mime = "{audio,video,image}/*", run = "mediainfo" },
     { mime = "application/subrip", run = "mediainfo" },
+    { mime = "folder/local", run = "noop" },
   ]
   prepend_previewers = [
     # Replace magick, image, video with mediainfo
     { mime = "{audio,video,image}/*", run = "mediainfo"},
     { mime = "*.md", run = 'piper -- CLICOLOR_FORCE=1 glow -w=$w -s=dark "$1"'},
     { mime = "inode/directory", run = 'piper -- eza -TL=3 --color=always --icons=always --group-directories-first --no-quotes "$1"'},
+    # { mime = "folder/local", run = 'piper -- eza -TL=3 --color=always --icons=always --group-directories-first --no-quotes "$1"'},
     { mime = "application/subrip", run = "mediainfo" },
   ]
   prepend_fetchers = [
     { id = "mime", name = "*", run = "mime-ext", prio = "high" }
+    # { id = "mime", name = "*", run = "mime.file", prio = "high" },
+    # { id = "mime", name = "*/", run = "mime.dir", prio = "high" }
+
   ]

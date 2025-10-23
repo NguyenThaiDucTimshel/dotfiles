@@ -20,9 +20,6 @@ alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 #free
 alias free="free -mt"
 
-#continue download
-alias wget="wget -c"
-
 #userlist
 alias userlist="cut -d: -f1 /etc/passwd"
 

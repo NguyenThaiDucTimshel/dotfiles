@@ -1,13 +1,25 @@
-2025/06/18-22:29:16.939 ad83 Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/MANIFEST-000001
-2025/06/18-22:29:16.940 ad83 Recovering log #54
-2025/06/18-22:29:16.940 ad83 Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/000054.log 
-2025/06/18-22:29:17.663 ad83 Level-0 table #59: started
-2025/06/18-22:29:17.665 ad83 Level-0 table #59: 3621 bytes OK
-2025/06/18-22:29:17.667 ad83 Delete type=0 #54
-2025/06/18-22:29:17.667 ad83 Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 797 : 1
-2025/06/18-22:29:17.667 ad83 Compacting 1@0 + 1@1 files
-2025/06/18-22:29:17.669 ad83 Generated table #60@0: 106 keys, 4926 bytes
-2025/06/18-22:29:17.669 ad83 Compacted 1@0 + 1@1 files => 4926 bytes
-2025/06/18-22:29:17.671 ad83 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/06/18-22:29:17.671 ad83 Delete type=2 #59
-2025/06/18-22:29:17.671 ad83 Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 797 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/15-23:24:08.331 11e4b Reusing MANIFEST /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/15-23:24:08.331 11e4b Recovering log #92
+2025/10/15-23:24:08.332 11e4b Reusing old log /home/zen/.config/chromium/Default/IndexedDB/https_vnexpress.net_0.indexeddb.leveldb/000092.log 
+2025/10/15-23:24:08.332 11e4b Delete type=2 #90
+2025/10/15-23:24:08.337 11e4b Level-0 table #97: started
+2025/10/15-23:24:08.339 11e4b Level-0 table #97: 647 bytes OK
+2025/10/15-23:24:08.341 11e4b Delete type=0 #92
+2025/10/15-23:24:08.342 11e4b Manual compaction at level-0 from '\x00\x1a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1a\x00\x00\x05' @ 1022 : 1
+2025/10/15-23:24:08.342 11e4b Compacting 1@0 + 1@1 files
+2025/10/15-23:24:08.343 11e4b Generated table #98@0: 18 keys, 932 bytes
+2025/10/15-23:24:08.343 11e4b Compacted 1@0 + 1@1 files => 932 bytes
+2025/10/15-23:24:08.346 11e4b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/15-23:24:08.346 11e4b Delete type=2 #97
+2025/10/15-23:24:08.347 11e4b Manual compaction at level-0 from '\x00\x1a\x00\x00\x05' @ 1022 : 1 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/15-23:24:14.627 11e59 Level-0 table #100: started
+2025/10/15-23:24:14.629 11e59 Level-0 table #100: 2343 bytes OK
+2025/10/15-23:24:14.631 11e59 Delete type=2 #94
+2025/10/15-23:24:14.631 11e59 Delete type=0 #96
+2025/10/15-23:24:14.632 11e4b Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1b\x00\x00\x05' @ 1081 : 1
+2025/10/15-23:24:14.632 11e4b Compacting 1@0 + 1@1 files
+2025/10/15-23:24:14.633 11e4b Generated table #101@0: 43 keys, 2143 bytes
+2025/10/15-23:24:14.633 11e4b Compacted 1@0 + 1@1 files => 2143 bytes
+2025/10/15-23:24:14.636 11e4b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/15-23:24:14.636 11e4b Delete type=2 #100
+2025/10/15-23:24:14.637 11e4b Manual compaction at level-0 from '\x00\x1b\x00\x00\x05' @ 1081 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
