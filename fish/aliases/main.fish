@@ -96,7 +96,7 @@ alias pk="pacman -Qe | awk '{print \$1}' | xargs -I{} expac '%n %a %d' {} | colu
 alias icc='warp-cli connect'
 alias icd='warp-cli disconnect'
 alias ics='warp-cli status'
-
+alias m3u8="/home/zen/Downloads/N_m3u8DL-RE"
 # Transcription function for Japanese subtitles
 function ts 
     set input_file $argv[1]
@@ -104,4 +104,15 @@ function ts
     set base_name (basename "$input_file" | string replace -r '\.[^.]*$' '.srt')
     
     /home/zen/Downloads/ffmpeg -i "$input_file" -vn -af "whisper=model=/home/zen/Downloads/ggml-medium-q8_0.bin:language=ja:queue=5:use_gpu=true:gpu_device=0:destination=$dir_name/$base_name:format=srt" -f null -
+end
+
+function run_scrape
+    begin
+        cd /home/zen/dev/fc2
+        
+        source .venv/bin/activate.fish
+        
+        python scrape.py
+        python scrape1.py
+    end
 end

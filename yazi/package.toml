@@ -5,28 +5,28 @@ hash = "e02a788e5b8ae0fb47fd0193dda589cc"
 
 [[plugin.deps]]
 use = "hankertrix/augment-command"
-rev = "120406f"
-hash = "e83ccc99739cd500fb1b1014dc45824a"
+rev = "f0e6f44"
+hash = "9bcfdacce6b89dfd039a895c8403e5de"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "8f1d971"
+rev = "19dc890"
 hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
 use = "TD-Sky/sudo"
-rev = "8148f91"
-hash = "5db5b16dc96e971f0560a31999271065"
+rev = "86205aa"
+hash = "9628b660afb192d32f2ea5f6634d3e72"
 
 [[plugin.deps]]
 use = "boydaihungst/mediainfo"
-rev = "2093ab7"
-hash = "16a10359fc2a3cd8cc8bcfbe00f744d3"
+rev = "af8bdf4"
+hash = "43fa632820cc91919c4e713652140b48"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "8f1d971"
-hash = "64713dcd74daf9ec644883a5895e5d1"
+rev = "19dc890"
+hash = "b26d542e75151835d7bc885f6dda74cb"
 
 [[plugin.deps]]
 use = "KKV9/compress"
@@ -40,27 +40,27 @@ hash = "9c2ab18ff5368056904e4ebb61b17571"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:mime-ext"
-rev = "8f1d971"
+rev = "19dc890"
 hash = "4c49c446328c4553a4ccab7facc10b21"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "8f1d971"
-hash = "3cce60031b27cbce80b50f68ca319c0a"
+rev = "19dc890"
+hash = "94081eed9bc9fe176715c33b0db55d35"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "8f1d971"
+rev = "19dc890"
 hash = "8a7c58225816a163a6e8730c0adafbc8"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-frappe"
-rev = "f6b425a"
+rev = "3edeb49"
 hash = "69cd81ca19a1039352ef981fc4cf1b63"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
-rev = "f6b425a"
+rev = "3edeb49"
 hash = "76b921b2d734331854d4a55b59a21388"
 
 [[flavor.deps]]
@@ -75,7 +75,7 @@ hash = "1e647ba2d7c6e6f2bafe858ad9a4e50a"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-macchiato"
-rev = "f6b425a"
+rev = "3edeb49"
 hash = "7ea1785ea4535f3ee0e45cc579794935"
 
 [[flavor.deps]]

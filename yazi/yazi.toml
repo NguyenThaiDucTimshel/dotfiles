@@ -35,8 +35,7 @@ emacs = [{ run = 'emacs -- "$@"', block = false, desc = "Open in Emacs" }]
 
 analyse = [{ run = 'spek -- "$@"', block = false, desc = "Analyse spectrum" }]
 
-mpv = [{ run = 'mpv -- "$@"', block = false, desc = "Play with mpv" }]
-
+mpv = [{ run = 'mpv  "$@"', block = false, desc = "Play with mpv" }]
 
 # Configuration for the opener rules
 [open]

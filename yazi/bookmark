@@ -1,3 +1,5 @@
 temp	/run/media/zen/HGST/torrent/temp	g
-download	/run/media/zen/data/download	f
-complete	/run/media/zen/data/complete	e
+Magicstar	/mnt/zen/Magicstar	t
+face	/mnt/zen/face	r
+download	/mnt/zen/download	f
+complete	/mnt/zen/complete	e
