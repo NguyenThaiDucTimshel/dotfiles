@@ -259,64 +259,45 @@ run = "plugin relative-motions 9"
 desc = "Move in relative steps"
 
 [[mgr.prepend_keymap]]
-on = "e"
-run = "plugin whoosh jump_by_key"
+on = [ "u", "a" ]
+run = "plugin yamb -- save"
+desc = "Add bookmark"
+
+[[mgr.prepend_keymap]]
+on = [ "e" ]
+run = "plugin yamb -- jump_by_key"
 desc = "Jump bookmark by key"
 
-# Basic bookmark operations
 [[mgr.prepend_keymap]]
-on = [ "E", "a" ]
-run = "plugin whoosh save"
-desc = "Add bookmark (hovered file/directory)"
-
-[[mgr.prepend_keymap]]
-on = [ "E", "A" ]
-run = "plugin whoosh save_cwd"
-desc = "Add bookmark (current directory)"
-
-# Temporary bookmarks
-[[mgr.prepend_keymap]]
-on = [ "E", "t" ]
-run = "plugin whoosh save_temp"
-desc = "Add temporary bookmark (hovered file/directory)"
-
-[[mgr.prepend_keymap]]
-on = [ "E", "T" ]
-run = "plugin whoosh save_cwd_temp"
-desc = "Add temporary bookmark (current directory)"
-
-# Jump to bookmarks
-[[mgr.prepend_keymap]]
-on = [ "E", "f" ]
-run = "plugin whoosh jump_by_fzf"
+on = [ "u", "G" ]
+run = "plugin yamb -- jump_by_fzf"
 desc = "Jump bookmark by fzf"
 
-# Delete bookmarks
 [[mgr.prepend_keymap]]
-on = [ "E", "d" ]
-run = "plugin whoosh delete_by_key"
+on = [ "u", "d" ]
+run = "plugin yamb -- delete_by_key"
 desc = "Delete bookmark by key"
 
 [[mgr.prepend_keymap]]
-on = [ "E", "D" ]
-run = "plugin whoosh delete_by_fzf"
-desc = "Delete bookmarks by fzf (use TAB to select multiple)"
+on = [ "u", "D" ]
+run = "plugin yamb -- delete_by_fzf"
+desc = "Delete bookmark by fzf"
 
 [[mgr.prepend_keymap]]
-on = [ "E", "C" ]
-run = "plugin whoosh delete_all"
-desc = "Delete all user bookmarks"
+on = [ "u", "A" ]
+run = "plugin yamb -- delete_all"
+desc = "Delete all bookmarks"
 
-# Rename bookmarks
 [[mgr.prepend_keymap]]
-on = [ "E", "r" ]
-run = "plugin whoosh rename_by_key"
+on = [ "u", "r" ]
+run = "plugin yamb -- rename_by_key"
 desc = "Rename bookmark by key"
 
 [[mgr.prepend_keymap]]
-on = [ "E", "R" ]
-run = "plugin whoosh rename_by_fzf"
+on = [ "u", "R" ]
+run = "plugin yamb -- rename_by_fzf"
 desc = "Rename bookmark by fzf"
+
 [[mgr.prepend_keymap]]
 on   = [ "c", "a" ]
 run  = "plugin compress"
