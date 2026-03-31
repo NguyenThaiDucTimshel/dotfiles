@@ -67,6 +67,7 @@ defaults = {
 
 	scale = 1,
 	scale_fullscreen = 1.3,
+	font = '',
 	font_scale = 1,
 	text_border = 1.2,
 	border_radius = 4,
@@ -102,6 +103,7 @@ defaults = {
 	languages = 'slang,en',
 	subtitles_directory = '~~/subtitles',
 	disable_elements = '',
+	ziggy_path = 'default',
 }
 options = table_copy(defaults)
 function handle_options(changed_options)
@@ -142,6 +144,7 @@ local config_defaults = {
 		foreground_text = serialize_rgba('000000').color,
 		background = serialize_rgba('000000').color,
 		background_text = serialize_rgba('ffffff').color,
+		window_border = serialize_rgba('000000').color,
 		curtain = serialize_rgba('111111').color,
 		success = serialize_rgba('a5e075').color,
 		error = serialize_rgba('ff616e').color,
@@ -177,7 +180,7 @@ config = {
 	-- sets max rendering frequency in case the
 	-- native rendering frequency could not be detected
 	render_delay = 1 / 60,
-	font = mp.get_property('options/osd-font'),
+	font = options.font ~= '' and options.font or mp.get_property('options/osd-font'),
 	osd_margin_x = mp.get_property('osd-margin-x'),
 	osd_margin_y = mp.get_property('osd-margin-y'),
 	osd_alignment_x = mp.get_property('osd-align-x'),
@@ -334,7 +337,7 @@ function create_default_menu_items()
 				{
 					title = t('Aspect ratio'),
 					items = {
-						{title = t('Default'), value = 'set video-aspect-override "-1"'},
+						{title = t('Default'), value = 'set video-aspect-override no'},
 						{title = '16:9', value = 'set video-aspect-override "16:9"'},
 						{title = '4:3', value = 'set video-aspect-override "4:3"'},
 						{title = '2.35:1', value = 'set video-aspect-override "2.35:1"'},
@@ -346,7 +349,6 @@ function create_default_menu_items()
 				{title = t('Key bindings'), value = 'script-binding uosc/keybinds'},
 				{title = t('Show in directory'), value = 'script-binding uosc/show-in-directory'},
 				{title = t('Open config folder'), value = 'script-binding uosc/open-config-directory'},
-				{title = t('Update uosc'), value = 'script-binding uosc/update'},
 			},
 		},
 		{title = t('Quit'), value = 'quit'},
@@ -383,6 +385,7 @@ state = {
 	ime_active = mp.get_property_native('input-ime'),
 	chapters = {},
 	chapter_ranges = {},
+	current_clipboard_backend = mp.get_property_native('current-clipboard-backend'),
 	border = mp.get_property_native('border'),
 	title_bar = mp.get_property_native('title-bar'),
 	fullscreen = mp.get_property_native('fullscreen'),
@@ -443,7 +446,9 @@ require('lib/menus')
 -- Determine path to ziggy
 do
 	local bin = 'ziggy-' .. (state.platform == 'windows' and 'windows.exe' or state.platform)
-	config.ziggy_path = os.getenv('MPV_UOSC_ZIGGY') or join_path(mp.get_script_directory(), join_path('bin', bin))
+	config.ziggy_path = os.getenv('MPV_UOSC_ZIGGY') or
+	options.ziggy_path == 'default' and join_path(mp.get_script_directory(), join_path('bin', bin)) or
+	utils.join_path(mp.command_native({ 'expand-path', options.ziggy_path }), bin)
 end
 
 --[[ STATE UPDATERS ]]
@@ -745,6 +750,7 @@ mp.observe_property('demuxer-cache-state', 'native', function(prop, cache_state)
 		set_state('cache_duration', not cache_state.eof and cache_state['cache-duration'] or nil)
 	else
 		cached_ranges = {}
+		set_state('cache_underrun', false)
 	end
 
 	if not (state.duration and (#cached_ranges > 0 or state.cache == 'yes' or
@@ -868,12 +874,13 @@ bind_command('playlist', create_self_updating_menu_opener({
 	footnote = t('Paste path or url to add.') .. ' ' .. t('%s to reorder.', 'ctrl+up/down/pgup/pgdn/home/end'),
 	serializer = function(playlist)
 		local items = {}
-		local force_filename = mp.get_property_native('osd-playlist-entry') == 'filename'
+		local playlist_titles = mp.get_property_native('user-data/playlistmanager/titles') or {}
 		for index, item in ipairs(playlist) do
+			local is_url = is_protocol(item.filename)
 			local title = type(item.title) == 'string' and #item.title > 0 and item.title or false
 			items[index] = {
-				title = (not force_filename and title) and title
-					or (is_protocol(item.filename) and item.filename or serialize_path(item.filename).basename),
+				title = is_url and (title or playlist_titles[item.filename] or url_decode(item.filename)) or
+				serialize_path(item.filename).basename,
 				hint = tostring(index),
 				active = item.current,
 				value = index,
@@ -954,7 +961,10 @@ bind_command('show-in-directory', function()
 end)
 bind_command('stream-quality', open_stream_quality_menu)
 bind_command('open-file', open_open_file_menu)
-bind_command('shuffle', function() set_state('shuffle', not state.shuffle) end)
+bind_command('shuffle', function()
+	set_state('shuffle', not state.shuffle)
+	mp.osd_message(state.shuffle and t('Shuffle ON') or t('Shuffle OFF'))
+end)
 bind_command('items', function()
 	if state.has_playlist then
 		mp.command('script-binding uosc/playlist')
@@ -1070,9 +1080,6 @@ bind_command('open-config-directory', function()
 	else
 		msg.error('Couldn\'t serialize config path "' .. config_path .. '".')
 	end
-end)
-bind_command('update', function()
-	if not Elements:has('updater') then require('elements/Updater'):new() end
 end)
 
 --[[ MESSAGE HANDLERS ]]

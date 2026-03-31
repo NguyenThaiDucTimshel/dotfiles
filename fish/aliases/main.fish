@@ -106,6 +106,14 @@ function ts
     /home/zen/Downloads/ffmpeg -i "$input_file" -vn -af "whisper=model=/home/zen/Downloads/ggml-medium-q8_0.bin:language=ja:queue=5:use_gpu=true:gpu_device=0:destination=$dir_name/$base_name:format=srt" -f null -
 end
 
+# Transcription function for Japanese subtitles
+function tss 
+    set input_file $argv[1]
+    set dir_name (dirname "$input_file")
+    set base_name (basename "$input_file" | string replace -r '\.[^.]*$' '.srt')
+    
+    /home/zen/Downloads/ffmpeg -i "$input_file" -vn -af "whisper=model=/home/zen/Downloads/kotoba-whisper-v2.2-ggml-q8_0.bin:queue=5:use_gpu=true:gpu_device=0:destination=$dir_name/$base_name:format=srt" -f null -
+end
 function run_scrape
     begin
         cd /home/zen/dev/fc2
@@ -113,6 +121,5 @@ function run_scrape
         source .venv/bin/activate.fish
         
         python scrape.py
-        python scrape1.py
     end
 end

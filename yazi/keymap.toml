@@ -380,6 +380,9 @@ shell 'for path in "$@"; do echo "file://$path"; done | wl-copy -t text/uri-list
 '''
 desc = "Copy file objects to system clipboard (Wayland)"
 
-
+[[mgr.prepend_keymap]]
+on   = [ "<C-t>" ]
+run  = 'plugin thumbnail'
+desc = "Open current directory in Swayimg gallery"
 
 

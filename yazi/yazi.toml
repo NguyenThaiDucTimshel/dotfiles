@@ -69,8 +69,14 @@ prepend_rules = [
     { mime = "application/subrip", run = "mediainfo" },
   ]
   prepend_fetchers = [
-    { id = "mime", name = "*", run = "mime-ext", prio = "high" }
+    # Mime-ext: Local files
+    { id = "mime", url = "local://*", run = "mime-ext.local", prio = "high" },
+    
+    # Mime-ext: Remote files
+    { id = "mime", url = "remote://*", run = "mime-ext.remote", prio = "high" },
+
+    # Other fetchers (commented out as per your original config)
     # { id = "mime", name = "*", run = "mime.file", prio = "high" },
     # { id = "mime", name = "*/", run = "mime.dir", prio = "high" }
-
   ]
+

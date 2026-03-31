@@ -6,13 +6,13 @@
 }
 {
     "label" : "reboot",
-    "action" : "pkill -x tixati; sleep 2;systemctl reboot",
+    "action" : "systemctl reboot",
     "text" : "Reboot",
     "keybind" : "r"
 }
 {
     "label" : "shutdown",
-    "action" : "pkill -x tixati; sleep 2;systemctl poweroff",
+    "action" : "systemctl poweroff",
     "text" : "Shutdown",
     "keybind" : "s"
 }

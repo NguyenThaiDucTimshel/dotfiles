@@ -1,7 +1,7 @@
 [
     {
         "alang": "*",
-        "slang": ["jpn","ja","chs", "sc", "zho?%-cn", "zho?%-hans", "cht", "tc", "zho?%-hant", "zho?%-tw", "zho?%-hk", "zho?%-", "chi", "zho?", "und"],
+        "slang": ["chs", "sc", "zho?%-cn", "zho?%-hans", "cht", "tc", "zho?%-hant", "zho?%-tw", "zho?%-hk", "zho?%-", "chi", "zho?", "und"],
         "whitelist": ["chs&j[ap]n?"],
         "condition": "sub.codec ~= 'null'"
     },

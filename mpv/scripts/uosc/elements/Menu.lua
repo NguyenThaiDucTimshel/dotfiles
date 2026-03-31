@@ -1401,6 +1401,7 @@ function Menu:render()
 			bx = content_rect.bx + self.padding,
 			by = content_rect.by + self.padding,
 		}
+		local blur_selected_index = self.mouse_nav and is_current
 		local blur_action_index = self.mouse_nav and menu.action_index ~= nil
 
 		-- Background
@@ -1454,18 +1455,6 @@ function Menu:render()
 				bx = bg_rect.bx + (item.items and self.gap or -self.padding), -- to bridge the submenu gap with cursor
 				by = math.min(item_ay + self.scroll_step, bg_rect.by),
 			}
-
-			-- Select hovered item
-			if is_current and self.mouse_nav and item.selectable ~= false
-				-- Do not select items if cursor is moving towards a submenu
-				and (not submenu_rect or not cursor:direction_to_rectangle_distance(submenu_rect))
-				and (submenu_is_hovered or get_point_to_rectangle_proximity(cursor, item_rect_hitbox) <= 0) then
-				menu.selected_index = index
-				if not is_selected then
-					is_selected = true
-					request_render()
-				end
-			end
 
 			local has_background = is_selected or item.active
 			local next_item = menu.items[index + 1]
@@ -1650,6 +1639,23 @@ function Menu:render()
 					clip = clip,
 				})
 			end
+
+			-- Select hovered item
+			if is_current and self.mouse_nav and item.selectable ~= false then
+				if submenu_rect and cursor:direction_to_rectangle_distance(submenu_rect)
+					or actions_rect and actions_rect.is_outside and cursor:direction_to_rectangle_distance(actions_rect) then
+					blur_selected_index = false
+				else
+					if submenu_is_hovered or get_point_to_rectangle_proximity(cursor, item_rect_hitbox) <= 0 then
+						blur_selected_index = false
+						menu.selected_index = index
+						if not is_selected then
+							is_selected = true
+							request_render()
+						end
+					end
+				end
+			end
 		end
 
 		-- Footnote / Selected action label
@@ -1683,6 +1689,7 @@ function Menu:render()
 
 		-- Menu title
 		if draw_title then
+			local title_height = self.item_height + self.padding - 3
 			local requires_submit = menu.search_debounce == 'submit'
 			local rect = {
 				ax = content_rect.ax,
@@ -1695,6 +1702,26 @@ function Menu:render()
 
 			if menu.title and not menu.ass_safe_title then
 				menu.ass_safe_title = ass_escape(menu.title)
+			end
+
+			-- Background
+			if menu.search then
+				ass:rect(content_rect.ax + 3, rect.ay + 3, content_rect.bx - 3, rect.ay + title_height - 1, {
+					color = fg .. '\\1a&HFF', opacity = menu_opacity * 0.1,
+					radius = state.radius > 0 and state.radius + self.padding or 0,
+					border = 1, border_color = fg, border_opacity = menu_opacity * 0.8
+				})
+				ass:texture(content_rect.ax + 3, rect.ay + 3, content_rect.bx - 3, rect.ay + title_height - 1, 'n', {
+					size = 80, color = bg, opacity = menu_opacity * 0.1, anchor_x = content_rect.ax + 2, anchor_y = rect.ay + 2,
+				})
+			else
+				ass:rect(content_rect.ax + 2, rect.ay + 2, content_rect.bx - 2, rect.ay + title_height, {
+					color = fg, opacity = menu_opacity * 0.8,
+					radius = state.radius > 0 and state.radius + self.padding or 0,
+				})
+				ass:texture(content_rect.ax + 2, rect.ay + 2, content_rect.bx - 2, rect.ay + title_height, 'n', {
+					size = 80, color = bg, opacity = menu_opacity * 0.1,
+				})
 			end
 
 			-- Separator
@@ -1789,7 +1816,7 @@ function Menu:render()
 				ass:txt(rect.cx, rect.cy, 5, menu.ass_safe_title, {
 					size = self.font_size,
 					bold = true,
-					color = bgt,
+					color = bg,
 					wrap = 2,
 					opacity = menu_opacity,
 					clip = '\\clip(' .. rect.ax .. ',' .. rect.ay .. ',' .. rect.bx .. ',' .. rect.by .. ')',
@@ -1797,6 +1824,10 @@ function Menu:render()
 			end
 		end
 
+		-- We are in mouse nav and cursor isn't hovering any item
+		if blur_selected_index then
+			menu.selected_index = nil
+		end
 		if blur_action_index then
 			menu.action_index = nil
 			request_render()
