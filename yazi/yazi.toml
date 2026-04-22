@@ -46,7 +46,7 @@ prepend_rules = [
         "reveal",
         "analyse",
     ] },
-    { name = "*.{org,tex,bib}", use = [
+    { url = "*.{org,tex,bib}", use = [
         "emacs",
         "edit",
         "reveal",
@@ -70,10 +70,10 @@ prepend_rules = [
   ]
   prepend_fetchers = [
     # Mime-ext: Local files
-    { id = "mime", url = "local://*", run = "mime-ext.local", prio = "high" },
+    { group = "mime", url = "local://*", run = "mime-ext.local", prio = "high" },
     
     # Mime-ext: Remote files
-    { id = "mime", url = "remote://*", run = "mime-ext.remote", prio = "high" },
+    { group = "mime", url = "remote://*", run = "mime-ext.remote", prio = "high" },
 
     # Other fetchers (commented out as per your original config)
     # { id = "mime", name = "*", run = "mime.file", prio = "high" },
