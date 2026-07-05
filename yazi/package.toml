@@ -1,0 +1,89 @@
+[[plugin.deps]]
+use = "hankertrix/augment-command"
+rev = "dd2d6cf"
+hash = "cba2bae0c4ad211f4219de550b3838a5"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "5d461d8"
+hash = "7b625412411be411153886894d9acaf"
+
+[[plugin.deps]]
+use = "TD-Sky/sudo"
+rev = "afd61ce"
+hash = "d390cd2d8b996939a695411b446f58d0"
+
+[[plugin.deps]]
+use = "boydaihungst/mediainfo"
+rev = "a6d30a1"
+hash = "a28bae93edccc371b234f4ad1b936a31"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:piper"
+rev = "5d461d8"
+hash = "12126fca34f9f1802bb57b88292f57af"
+
+[[plugin.deps]]
+use = "llanosrocas/yaziline"
+rev = "25161c1"
+hash = "5c7802a9ac249be88729978e3b9525bc"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:mime-ext"
+rev = "5d461d8"
+hash = "2678c84a0b3a0b22504e918ccaf99011"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "5d461d8"
+hash = "88e56a64b7ce7c4314427452343fef17"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "5d461d8"
+hash = "15e5b67a241172cbb86b8fbf9e63692"
+
+[[plugin.deps]]
+use = "h-hg/yamb"
+rev = "5f2e22e"
+hash = "699fe07e0d2d1b4af8dafb84168eeb04"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-frappe"
+rev = "4770a34"
+hash = "1844f850b0c5d1af511c84399c95e3d7"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-mocha"
+rev = "4770a34"
+hash = "7dfe41c9c3d9be76da8a844263d0bbed"
+
+[[flavor.deps]]
+use = "dangooddd/kanagawa"
+rev = "04985d1"
+hash = "c69a63981e254a3a06a11c2bf0e6af1d"
+
+[[flavor.deps]]
+use = "BennyOe/onedark"
+rev = "668d71d"
+hash = "1e647ba2d7c6e6f2bafe858ad9a4e50a"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-macchiato"
+rev = "4770a34"
+hash = "67f2240fd9c98f21714527a24cd672f8"
+
+[[flavor.deps]]
+use = "BennyOe/tokyo-night"
+rev = "8e6296f"
+hash = "d9da921c3bd37ba32ee27a8a7a40461f"
+
+[[flavor.deps]]
+use = "kalidyasin/yazi-flavors:tokyonight-storm"
+rev = "70fe6b4"
+hash = "5e3e7bacbda43a1816d1e8be53a3599e"
+
+[[flavor.deps]]
+use = "kalidyasin/yazi-flavors:tokyonight-moon"
+rev = "70fe6b4"
+hash = "4dbcdb01334e5b7c93f4f59d46cc8def"
