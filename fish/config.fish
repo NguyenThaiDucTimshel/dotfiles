@@ -111,3 +111,6 @@ if not set -q SSH_AUTH_SOCK
     ssh-add ~/.ssh/id_ed25519_new  # Replace with your key
 end
 set -gx BTOP_GPU_LIBRARY "/usr/lib/libnvidia-ml.so"
+
+# Created by `pipx` on 2026-07-05 13:18:55
+set PATH $PATH /home/zen/.local/bin
