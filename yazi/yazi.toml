@@ -66,7 +66,7 @@ prepend_rules = [
     { mime = "folder/local", run = "noop" },
   ]
   prepend_previewers = [
-    # Replace magick, image, video with mediainfo
+    { mime = "application/octet-stream", run = "code" },
     { mime = "{audio,video,image}/*", run = "mediainfo"},
     { mime = "*.md", run = 'piper -- CLICOLOR_FORCE=1 glow -w=$w -s=dark "$1"'},
     { mime = "inode/directory", run = 'piper -- eza -TL=3 --color=always --icons=always --group-directories-first --no-quotes "$1"'},

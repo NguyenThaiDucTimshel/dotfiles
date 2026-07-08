@@ -35,9 +35,10 @@ hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize())
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(launchPrefix .. TERMINAL))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(launchPrefix .. FILE_MANAGER))
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(launchPrefix .. EDITOR))
-hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("/home/zen/.config/hypr/config/script/SwitchAudioSink.sh"))
+hl.bind(mainMod .. " + G", hl.dsp.exec_cmd("/home/zen/.config/hypr/config/script/SwitchAudioSink.sh"))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(launchPrefix .. CHROMIUM))
-hl.bind("CONTROL + SHIFT + Escape", hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " -e btop"))
+-- hl.bind("CONTROL + SHIFT + Escape", hl.dsp.exec_cmd(launchPrefix .. TERMINAL .. " -e btop"))
+hl.bind("CONTROL + Escape", hl.dsp.exec_cmd("kitty -e btop"))
 hl.bind(mainMod .. " + Z", hl.dsp.exec_cmd(noctCall .. "settings-toggle"))
 hl.bind(mainMod .. " + X", hl.dsp.exec_cmd(noctCall .. "panel-toggle control-center"))
 hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd(noctCall .. "panel-toggle launcher"))
@@ -72,9 +73,9 @@ hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd(noctCall .. "brightness-down"),
 -------------------
 
 -- Screen Capture
-hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("hyprpicker -a"))
-hl.bind("Print", hl.dsp.exec_cmd(noctCall .. "screenshot-region"))
-hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd(noctCall .. "screenshot-fullscreen"))
+-- hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("hyprpicker -a"))
+hl.bind(mainMod .. " + P", hl.dsp.exec_cmd(noctCall .. "screenshot-region"))
+hl.bind(mainMod .. " + CONTROL + P", hl.dsp.exec_cmd(noctCall .. "screenshot-fullscreen"))
 
 -- Theming and Wallpaper
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd(noctCall .. "panel-toggle wallpaper"))
